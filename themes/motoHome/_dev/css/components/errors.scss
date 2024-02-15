@@ -1,0 +1,39 @@
+#products,
+#pagenotfound {
+  #main {
+    .page-header {
+      margin: 2rem 0 3rem;
+    }
+    .page-content {
+      margin-bottom: 10rem;
+    }
+  }
+  .page-not-found {
+    // background-color: #fcf8e3;
+    // border: 1px solid #faebcc;
+    text-align: center;
+    padding: 1rem;
+    font-size: $font-size-sm;
+    color: $gray;
+    max-width: 100%;
+    margin-top: 20px;
+    h4 {
+      font-size: $base-font-size;
+      font-weight: 400;
+      margin: 0.5rem 0 1rem;
+    }
+    .search-widget {
+      float: none;
+      form{
+        display: flex;
+      }
+      input {
+        width: 100%;
+        border-radius: 0;
+        border: 1px solid #dedede;
+        background-color: transparent;
+        padding: 10px 15px;
+      }
+    }
+  }
+}

@@ -1,0 +1,171 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+
+@font-face {
+    font-family: Vazir;
+    src: url('https://res.cloudinary.com/ipresta/raw/upload/v1522045380/vazir_v18.0.0/Vazir.eot');
+    src: url('https://res.cloudinary.com/ipresta/raw/upload/v1522045380/vazir_v18.0.0/Vazir.eot?#iefix') format('embedded-opentype'),
+        url('https://res.cloudinary.com/ipresta/raw/upload/v1522045380/vazir_v18.0.0/Vazir.woff') format('woff'),
+        url('https://res.cloudinary.com/ipresta/raw/upload/v1522044764/vazir_v18.0.0/Vazir.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('https://res.cloudinary.com/ipresta/raw/upload/v1522045523/vazir_v18.0.0/Vazir-Bold.eot');
+    src: url('https://res.cloudinary.com/ipresta/raw/upload/v1522045523/vazir_v18.0.0/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://res.cloudinary.com/ipresta/raw/upload/v1522045380/vazir_v18.0.0/Vazir.woff') format('woff'),
+        url('https://res.cloudinary.com/ipresta/raw/upload/v1522045523/vazir_v18.0.0/Vazir-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('https://res.cloudinary.com/ipresta/raw/upload/v1522044764/vazir_v18.0.0/Vazir-Light.eot');
+    src: url('https://res.cloudinary.com/ipresta/raw/upload/v1522044764/vazir_v18.0.0/Vazir-Light.eot?#iefix') format('embedded-opentype'),
+        url('https://res.cloudinary.com/ipresta/raw/upload/v1522044764/vazir_v18.0.0/Vazir-Light.woff') format('woff'),
+        url('https://res.cloudinary.com/ipresta/raw/upload/v1522044764/vazir_v18.0.0/Vazir-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+body.lang-fa {
+    font-family: "Vazir", sans-serif !important;
+}
+
+body {
+    font-family: "Vazir", sans-serif !important;
+}
+
+.rtl-flip:not(.rtl-no-flip),
+.material-icons:not(.rtl-no-flip) {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+.magnitude:before {
+    content: "?";
+    opacity: 0;
+}
+
+
+.bonsearch {
+    left: 120px !important;
+    right: auto;
+}
+
+
+
+
+.bonthumbnails {
+    left: 10px;
+    right: auto;
+}
+
+.instagram-carousel-container .instagram_cover:before {
+    content: '+' !important;
+}
+
+.product-container {
+    left: 20px;
+    right: auto;
+}
+
+.bon-custom-menu.custom-menu-active * {
+    direction: ltr;
+}
+
+#bonbanners a .img-responsive {
+    transform: scale(-1, 1);
+}
+
+#bonbanners a:hover img {
+    transform: scale(-1.07, 1.07);
+}
+
+#bonbanners a .banner-inner {
+
+    padding-right: 40px;
+    right: 20px;
+    left: auto;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+a {
+    direction: rtl;
+
+}
+
+#bonslick {
+    direction: ltr !important;
+}
+
+#bonslick .img-responsive {
+    transform: scale(-1, 1);
+}
+
+#bonslick .bonslick-slider {
+    padding: 0;
+}
+
+#bonslick .bonslick-caption {
+    direction: rtl !important;
+
+}
+
+.footer_email {
+    display: flex;
+}
+
+#bonban a {
+    display: flex;
+    justify-content: center;
+}
+
+#id_new_comment_form .row .col-md-5,
+#id_new_comment_form .row .col-md-7 {
+    padding: 15px;
+}
+
+.new_comment_form_content li,
+.new_comment_form_content label,
+.new_comment_form_content .row.required {
+    display: flex !important;
+}
+
+#product #bon-stick-cart #add-to-cart-or-refresh .product-add-to-cart .product-quantity {
+    flex-direction: row-reverse;
+}
+
+.product-miniature .productcountdown span,
+.product-miniature .productcountdown span:last-child {
+    margin-right: 5px;
+}
+
+body .popup-close {
+    left: -40px !important;
+    right: auto;
+}
+
+#meerkat-container {
+    direction: ltr;
+}
+
+.bon-newsletter .bon-newsletter-wrapper{
+    direction: rtl;
+}
+.bon-newsletter .bon-newsletter-wrapper {
+    flex-direction: row-reverse !important;
+}

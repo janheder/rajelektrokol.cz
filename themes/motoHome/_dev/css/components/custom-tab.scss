@@ -1,0 +1,209 @@
+.bon-custom-tab {
+  margin-right: 0!important;
+  margin-left: 0!important;
+  margin-top: 17px;
+  h2{
+    font-size: 20px;
+    color: #3a3a3a;
+    text-transform: capitalize;
+  }
+  .bon-custom-tab-upper-block {
+    margin-right: 0!important;
+    margin-left: 0!important;
+    width: 100%;
+    .bon-custom-tab-text-list {
+      line-height: 2;
+
+      .bon-custom-tab-text-items {
+        font-size: 13px;
+        padding-left: 25px;
+        position: relative;
+        color: #545454;
+        margin-bottom: 6px;
+
+        &:before {
+          content: "\e5ca";
+          font-family: "Material Icons";
+          color: $brand-primary;
+          font-size: 13px;
+          position: absolute;
+          left: 0;
+        }
+      }
+    }
+
+    .bon-custom-tab-icon {
+      .bon-custom-tab-icon-item {
+        margin: 7px 0 15px 0;
+        display: flex;
+        i {
+          font-size: 50px;
+          color: #7a7a7a;
+          margin-top: 10px;
+        }
+        div {
+          padding-left: 35px;
+          h3 {
+            font-size: 14px;
+            text-transform: capitalize;
+          }
+          p{
+            line-height: 2;
+          }
+        }
+      }
+      & ul > li:nth-child(1) > i {
+        font-size: 59px;
+      }
+      & ul > li:nth-child(2) > i {
+        font-size: 53px;
+      }
+    }
+  }
+
+  .bon-custom-tab-table {
+    width: 100%;
+    max-width: 100%;
+    table {
+      text-align: center;
+      margin-bottom: 0;
+      thead {
+        tr {
+          th {
+            text-align: center;
+            text-transform: capitalize;
+            color: #3a3a3a;
+            background: #f8f8f8;
+            border: 1px solid #e0e0e0;
+          }
+        }
+      }
+      tbody {
+        tr {
+          td {
+            color: #565656;
+            border: 1px solid #e0e0e0;
+          }
+        }
+        tr:nth-child(2) {
+          background: #f9f9f987;
+        }
+      }
+    }
+  }
+
+  .bon-custom-tab-under-block {
+    margin-right: 0!important;
+    margin-left: 0!important;
+    margin-top: 35px;
+    .bon-custom-tab-acardion {
+      h2 {
+        margin-bottom: 25px;
+      }
+      .accordion {
+        li {
+          margin-bottom: 18px;
+        }
+        .link {
+          cursor: pointer;
+          display: block;
+          font-size: 14px;
+          color: #7a7a7a;
+          padding: 12px;
+          text-transform: capitalize;
+          border: 1px solid #dcdcdc;
+          position: relative;
+          transition: all 0.4s ease;
+          width: 95%;
+          background: #f9f9f987;
+          i {
+            position: absolute;
+            right: 12px;
+            left: auto;
+            font-size: 16px;
+            color: #595959;
+            transition: all 0.4s ease;
+          }
+        }
+        .submenu {
+          display: none;
+          border: 1px solid #dcdcdc;
+          font-size: 14px;
+          padding: 15px;
+          border-top: 0;
+          width: 95%;
+          li {
+            margin-bottom: 0;
+            color: #7a7a7a;
+          }
+        }
+      }
+      .accordion li.open i.mercury-icon-angle-bottom {
+        transform: rotate(180deg);
+      }
+      .accordion li.open .link {
+        background: #f8f8f8;
+      }
+    }
+
+    .bon-custom-tab-description {
+      h2 {
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 14px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .bon-custom-tab {
+    margin-top: 15px;
+    .bon-custom-tab-icon {
+      margin-top: 20px;
+    }
+
+    .bon-custom-tab-table {
+      display: none;
+    }
+
+    .bon-custom-tab-under-block {
+      margin-top: 0px;
+      .bon-custom-tab-acardion .accordion {
+        .link {
+          width: 100%;
+        }
+        .submenu{
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 575px) {
+  .bon-custom-tab {
+    h2 {
+      font-size: 1rem;
+    }
+
+    .bon-custom-tab-upper-block {
+      margin-top: 20px;
+      .bon-custom-tab-icon .bon-custom-tab-icon-item i {
+        margin-top: 20px;
+      }
+    }
+
+    .bon-custom-tab-under-block {
+      .bon-custom-tab-acardion .accordion {
+        .link {
+          letter-spacing: 0;
+          i {
+            bottom: 35%;
+          }
+        }
+      }
+    }
+  }
+}

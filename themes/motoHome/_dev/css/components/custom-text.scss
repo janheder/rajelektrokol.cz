@@ -1,0 +1,234 @@
+#custom-text {
+  background: white;
+  border-radius: 2px;
+  margin-bottom: 1.5rem;
+  padding: 3.125rem 3.125rem;
+  text-align: center;
+  h2 {
+    text-transform: capitalize;
+    color: $gray-darker;
+    font-size: 1.563rem;
+    font-weight: 700;
+  }
+  p {
+    color: $gray-darker;
+    font-weight: 400;
+    font-size: 1.1em;
+    .dark {
+      color: $gray;
+      font-weight: 400;
+    }
+  }
+}
+
+.page-content.page-cms{
+  background: white;
+  padding: 1.25rem 0;
+  text-align: justify;
+  font-size: 13px;
+  color: #3a3a3a;
+
+  p {
+    color: #3a3a3a;
+  }
+  .cms-box{
+    img{
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  }
+  .cms-block {
+    ul {
+      li {
+        &:before {
+          content: '\e5ca';
+          font-family: "Material Icons";
+          color: $brand-success;
+          font-size: 16px;
+          vertical-align: -2px;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+  &.page-cms-2,
+  &.page-cms-5,
+  &.page-cms-1{
+    h3 {
+      margin: 0;
+      padding-bottom: 20px;
+    }
+    p {
+      margin: 0;
+      padding-bottom: 40px;
+    }
+  }
+}
+
+.bon-typography {
+  .bon-typography-heading {
+    padding: 50px 0;
+    border-bottom: 1px solid #d5d5d5;
+    border-top: 1px solid #d5d5d5;
+    h1, h2, h3, h4, h5, h6 {
+      margin-bottom: 20px;
+      font-weight: 500;
+      color: #3a3a3a;
+    }
+    .row {
+      padding-bottom: 40px;
+      &:last-child {
+        padding-bottom: 0;
+      }
+    }
+  }
+  .bon-list {
+    padding: 30px 0 20px 0;
+    border-bottom: 1px solid #d5d5d5;
+    h6 {
+      margin-bottom: 20px;
+      font-size: 21px;
+    }
+    .bon-first-list {
+      li {
+        position: relative;
+        ul > li {
+          position: relative;
+          padding: 5px 0 0 30px;
+          &:before {
+            content: '';
+            width: 5px;
+            height: 1px;
+            background: #777777;
+            display: inline-block;
+            vertical-align: 4px;
+          }
+        }
+        &:before {
+          vertical-align: 4px;
+          content: '';
+          width: 9px;
+          height: 1px;
+          background: #777777;
+          display: inline-block;
+          margin-right: 10px;
+        }
+      }
+    }
+    .bon-list-done {
+      padding-top: 40px;
+      li {
+        position: relative;
+        ul > li {
+          position: relative;
+          padding: 5px 0 5px 20px;
+          &:before{
+            content: '';
+            vertical-align: 2px;
+            width: 3px;
+            height: 3px;
+            background: #3a3a3a;
+            display: inline-block;
+            border-radius: 50%;
+          }
+        }
+        &:before {
+          vertical-align: 2px;
+          content: '';
+          width: 3px;
+          height: 3px;
+          background: $brand-success;
+          display: inline-block;
+          border-radius: 50%;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+  .bon-table {
+    padding: 30px 0;
+  }
+}
+
+.bon-table-first {
+  width: 100%;
+  border-top: 1px solid $gray-line;
+  border-bottom: 1px solid $gray-line;
+  thead {
+    tr {
+      th {
+        &:first-child {
+          width: 12%;
+          max-width: 68px;
+          padding-right: 10px;
+        }
+        &:not(:first-child){
+          width: 44%;
+          padding-right: 10px;
+        }
+        color: #3a3a3a;
+        font-size: 16px;
+        font-weight: normal;
+        padding: 12px 0 10px;
+      }
+    }
+  }
+  tbody {
+    tr {
+      border-top: 1px solid $gray-line;
+      td {
+        color: $gray-line;
+        font-size: 12px;
+        padding: 11px 0 11px;
+        &:first-child {
+          width: 15%;
+          font-size: 16px;
+          max-width: 70px;
+          color:#3a3a3a;
+          padding-right: 10px;
+        }
+        &:not(:first-child) {
+          width: 45%;
+          padding-right: 11px;
+        }
+      }
+    }
+  }
+}
+.bon-table-second {
+  width: 100%;
+  border-top: 1px solid $gray-line;
+  border-bottom: 1px solid $gray-line;
+  tbody {
+    tr {
+      border-top: 1px solid $gray-line;
+      td {
+        &:first-child {
+          width: 30%;
+          max-width: 175px;
+          padding: 11px 9px 11px 0;
+          font-size: 14px;
+          color: #3a3a3a;
+          font-weight: normal;
+        }
+        &:not(:first-child) {
+          padding: 13px 0 9px;
+          color: #b2b2b2;
+          font-size: 12px;
+          text-align: right;
+        }
+      }
+    }
+  }
+}
+
+/*** Responsive part ***/
+
+
+
+@media (max-width: 992px) {
+  #block-cmsinfo {
+    padding: $medium-space $large-space;
+  }
+}

@@ -1,0 +1,196 @@
+#contact {
+   .container.header-contact-info {
+    flex-direction: row;
+  }
+  input.btn-primary {
+    &:hover {
+      background-color: $brand-hover;
+    }
+  }
+
+  #header-nav {
+    >.container {
+      flex-direction: row;
+    }
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+
+    #content {
+      padding: 10px 0 15px;
+      margin-top: 50px;
+    }
+
+    #contact-wrapper {
+       
+      h4 {
+        text-transform: capitalize;
+        margin-bottom: 2rem;
+        text-align: center;
+      }
+      .contact-rich {
+        color: $gray;
+        margin: 0 0 30px;
+        word-wrap: break-word;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        .block {
+          height: auto;
+          float: left;
+          width: 25%;
+          text-align: center;
+
+          .icon {
+            width: 100%;
+            margin-bottom: 10px;
+
+            i {
+              font-size: 2.1rem;
+              color: #3a3a3a;
+            }
+          }
+
+          a {
+            font-size: 14px;
+          }
+
+          .data {
+            font-size: 14px;
+            width: auto;
+            overflow: hidden;
+
+            &.email {
+              padding-top: 0.375rem;
+            }
+          }
+        }
+      }
+    }
+
+    .contact-form {
+      background: white;
+      padding: 50px 0;
+      width: 100%;
+      overflow: hidden;
+
+      .form-footer {
+        padding-right: 5px;
+      }
+
+      h3 {
+        text-transform: capitalize;
+      }
+
+      .alert-danger {
+        >ul {
+          margin: 0;
+        }
+      }
+
+      .form-group.attachments {
+        span.buttonText {
+          line-height: 1.28;
+        }
+      }
+    }
+  }
+
+  .form-fields {
+    .contact-us {
+      text-align: center;
+    }
+
+    .subject,
+    .email,
+    .attachments, .reference {
+      float: left;
+      width: 30%;
+
+      input {
+        width: 100%;
+      }
+    }
+
+    .email,
+    .attachments, .reference {
+      clear: left;
+    }
+
+    .message {
+      float: right;
+      width: 68%;
+
+      textarea {
+        min-height: 205px;
+      }
+    }
+
+    .form-group {
+      .input-group {
+        flex-wrap: nowrap;
+
+        .input-group-btn>.btn {
+          padding: 11.5px 13px;
+          transition: all 0.2s linear;
+          width: max-content;
+
+          &:hover {
+            color: #fff;
+            background-color: $brand-hover;
+            border-color: transparent;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*** Responsive part ***/
+
+@media screen and (max-width: 767px) {
+  #contact {
+    .container {
+      #contact-wrapper {
+        .contact-rich {
+          .block {
+            width: 100%;
+            margin: 20px 0;
+          }
+        }
+      }
+    }
+  }
+
+
+}
+
+@media screen and (max-width: 575px) {
+  #contact {
+    .card-block {
+      .contact-form {
+        .form-footer {
+
+          .btn-primary {
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+
+    .form-fields {
+
+      .subject,
+      .email,
+      .attachments {
+        float: left;
+        width: 100%;
+      }
+
+      .message {
+        width: 100%;
+      }
+    }
+  }
+}

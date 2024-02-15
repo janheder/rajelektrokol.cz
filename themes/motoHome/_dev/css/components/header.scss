@@ -1,0 +1,537 @@
+#header {
+    background: #fff;
+    color: $gray-black;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 1010;
+    .header-banner {
+
+        .header-contact-info {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .header-contact {
+            display: flex;
+            margin-bottom: 0;
+
+            li {
+                i {
+                    margin-right: 5px;
+
+                }
+
+                i.material-icons {
+                    font-size: 13px;
+                }
+            }
+
+            &.right-block li {
+                margin-left: 40px;
+            }
+
+            .link-item {
+                transition: all .2s linear;
+
+                i.material-icons {
+                    font-size: 21px;
+                    transition: all .2s linear;
+                }
+
+                &:hover {
+                    color: $brand-hover;
+
+                    i.material-icons {
+                        color: $brand-hover;
+                    }
+                }
+            }
+        }
+    }
+    svg path {
+        transition: all .3s ease;
+    }
+    #_desktop_setting-header:hover {
+        color: $brand-hover!important;
+        line, path {
+            color: $brand-hover!important;
+        }
+
+    }
+    .bon-search-icon,
+    a {
+        color: $gray-black;
+    }
+
+    #bonwishlist, #boncompare, #_desktop_user_info,
+    .bon-search-icon, #_desktop_cart, #_desktop_setting-header {
+        &:hover {
+            text-decoration: none;
+            color: $brand-hover!important;
+        }
+        &:hover i,
+        &:hover:after {
+            color: $brand-hover!important;
+        }
+        &:hover svg {
+            path {
+                fill: $brand-hover!important;
+            }
+        }
+    }
+
+    .logo {
+        max-width: 100%;
+    }
+
+    #_desktop_logo {
+        h1 {
+            margin-bottom: 0;
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .header-top {
+
+        .position-static {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .bon-nav-bar {
+                display: flex;
+                align-items: center;
+
+                &.right {
+                    position: relative;
+                    > div {
+                        &:not(.modal) {
+                            padding: 10px 8px;
+                            min-height: 44px;
+                        }
+                    }
+                }
+                &>div {
+                    &:not(.modal) {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 0;
+
+                        .icon-text {
+                            font-size: 13px;
+                            margin-top: -1px;
+                        }
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+                }
+                &>div:not(:last-child) {
+                    margin: 0 25px 0 0;
+                }
+
+                #_desktop_cart {
+                    &:hover {
+                        .blockcart i {
+                            color: $brand-hover;
+                        }
+                    }
+
+                    .blockcart {
+                        font-weight: 400;
+                        color: $gray-black;
+                        transition: all .2s linear;
+                        line-height: 100%;
+
+                        i {
+                            transition: all .2s linear;
+
+                            &:hover {
+                                color: $brand-primary;
+                            }
+                        }
+                    }
+                    .icon-text {
+                        span {
+                            color: $brand-danger;
+                        }
+                    }
+                }
+
+                #_desktop_user_info {
+                    &:hover {
+                        .user-info {
+                            .bon-login-popup {
+                                visibility: visible;
+                                opacity: 1;
+                                pointer-events: auto;
+                                transform: translateY(12px);
+                            }
+                        }
+                    }
+
+                    .user-info {
+                        position: relative;
+
+                        .bon-login-popup {
+                            visibility: hidden;
+                            transform: translateY(100px);
+                            transition: all 0.3s linear;
+                            opacity: 0;
+                            pointer-events: none;
+                            position: absolute;
+                            width: 200px;
+                            right: -1px;
+                            z-index: 5002;
+                            top: 14px;
+                            border: 1px solid #ebebeb;
+                            box-shadow: 0 2px 8px rgba(0, 0, 0, .16);
+                            background: #fff;
+
+
+                            &-button {
+                                margin: 0 auto;
+                                width: 100%;
+                                text-align: center;
+                                padding: 0 5px;
+                            }
+
+                            .btn {
+                                color: #fff;
+                                font-size: 12px !important;
+                                margin-top: 15px;
+                                width: 90%;
+                                padding: 10px 14px;
+                                text-transform: uppercase;
+                                font-weight: 600;
+                                &:last-child {
+                                    margin-bottom: 15px;
+                                }
+                            }
+
+                            &.bon-logout {
+                                margin-top: 15px !important;
+                            }
+                        }
+                    }
+                }
+
+                #_desktop_user_info,
+                #_desktop_setting-header {
+                    i {
+                        transition: all 0.3s linear;
+                        color: $gray-black;
+                    }
+                    line, path {
+                        transition: all 0.3s linear;
+                    }
+
+                    &:hover,
+                    &:focus {
+                        i {
+                            color: $brand-hover;
+                        }
+                    }
+
+                    i.active {
+                        transition: all .2s linear;
+                        color: $brand-primary;
+                    }
+                }
+
+                #_desktop_setting-header {
+                    position: relative;
+
+                    i {
+                        font-weight: 400;
+                        font-size: 25px;
+                        line-height: 128%;
+                        cursor: pointer;
+                    }
+
+                    .setting-header-inner {
+                        visibility: hidden;
+                        transform: translateY(100px);
+                        transition: all 0.3s linear;
+                        pointer-events: none;
+                        position: absolute;
+                        right: 0;
+                        top: 22px;
+                        border: 1px solid #ebebeb;
+                        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.16);
+                        background: #fff;
+                        width: 170px;
+                        padding: 20px 15px;
+                        overflow: hidden;
+                        z-index: 5001;
+                        opacity: 0;
+                    }
+
+                    &:hover .setting-header-inner {
+                        visibility: visible;
+                        transform: translateY(12px);
+                        pointer-events: auto;
+                        opacity: 1;
+                    }
+
+                    #_desktop_language_selector,
+                    #_desktop_currency_selector {
+                        display: block;
+                    }
+                }
+
+            }
+        }
+    }
+
+    #_desktop_language_selector,
+    #_desktop_currency_selector {
+        display: none;
+    }
+
+    .language-selector-wrapper {
+        ul {
+            margin-bottom: 10px;
+            overflow: hidden;
+
+            li {
+                width: 33.333%;
+                float: left;
+
+                a {
+                    margin: 0 5px 10px 5px;
+                    display: block;
+                }
+
+                img {
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+
+    #_desktop_currency_selector {
+        .currency-selector {
+            ul {
+                overflow: hidden;
+                padding-left: 5px;
+                margin: 0;
+
+                li {
+                    width: 50%;
+                    float: left;
+
+                    a {
+                        font-size: 15px;
+
+                        &:hover {
+                            color: $brand-primary;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*** Responsive part ***/
+@media screen and (min-width: 1881px) {
+    #header .header-top .position-static .bon-nav-bar {
+        margin-right: -100px;
+        &.right {
+            transform: translateX(-100px);
+        }
+    }
+}
+@media screen and (min-width: 1200px) {
+    body:not(#index) #header:not(.sticky-head) .header-top {
+        position: relative;
+    }
+    #index #header:not(.sticky-head) {
+        .header-top:not(.sticky-head) {
+            #_desktop_setting-header {
+                line, path {
+                    color: #fff;
+                }
+            }
+            #bonwishlist, #boncompare, #_desktop_user_info,
+            .bon-search-icon, #_desktop_cart, #_desktop_setting-header {
+                color: white;
+
+                i,
+                &:after {
+                    color: white;
+                }
+                svg {
+                    path {
+                        fill: white;
+                    }
+                }
+            }
+        }
+    }
+    #index #header:not(.sticky-head) {
+        background-color: transparent;
+        background: transparent;
+    }
+    #index #header:not(.sticky-head) .header-top {
+        position: absolute;
+        width: 100%;
+        animation: none;
+        background-color: transparent;
+        background: transparent;
+    }
+}
+@media (min-width: 991px) and (max-width: 1880px) {
+    #header .header-top .position-static .bon-nav-bar > div:not(:last-child) {
+        margin-right: calc(10px + (25 - 10) * ((100vw - 991px) / (1880 - 991)));
+    }
+    #header .header-top .position-static .bon-nav-bar {
+        margin-right: calc(0px + (-100 - 0) * ((100vw - 991px) / (1880 - 991)));
+        &.right {
+            transform: translateX(calc(0px + (-100 - 0) * ((100vw - 991px) / (1880 - 991))));
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    #header .header-top .position-static .bon-nav-bar > div:not(:last-child) {
+        margin-right: calc(10px + (25 - 10) * ((100vw - 320px) / (991 - 320)));
+    }
+    #header {
+        padding: 0;
+        .header-top {
+            margin: 0;
+
+            .position-static {
+                position: relative !important;
+                padding-right: 10px;
+                padding-left: 10px;
+                margin: 10px 0;
+
+                .bon-nav-bar {
+                    margin-top: 0;
+                    position: relative;
+                    margin-right: 10px;
+                }
+            }
+
+
+
+            .header-contact.left-block {
+                display: flex;
+                justify-content: space-between;
+                border-top: 1px solid #414141;
+                padding-bottom: 30px;
+
+                a {
+                    color: #fff;
+
+                    i {
+                        margin-right: 15px;
+                    }
+
+                }
+
+                li {
+                    padding-top: 20px;
+                }
+
+            }
+        }
+
+        .header-banner {
+            padding: 20px 0 0;
+
+            .header-contact-info {
+                padding: 0 10px;
+                align-items: center;
+            }
+
+            .header-contact.left-block {
+                display: none !important;
+            }
+
+            .header-contact.right-block {
+                padding-top: 9px;
+
+                a {
+                    font-size: 14px;
+                    margin-right: 7px;
+
+                }
+
+                li {
+                    padding-right: 12px;
+
+                    i.material-icons {
+                        vertical-align: -4px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    #_desktop_setting-header {
+        display: none;
+    }
+
+    #_mobile_logo {
+        margin: 0 auto;
+        max-width: 200px;
+
+        h1 {
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    #header {
+        .header-top {
+            .position-static {
+                margin: 0;
+            }
+
+            .menu-list {
+                flex-wrap: wrap;
+
+                li {
+                    width: 50%;
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px){
+    #header .header-top .position-static .bon-nav-bar #_desktop_user_info .user-info .bon-login-popup {
+        right: -60px;
+    }
+    #header.sticky-head .header-top .position-static .bon-nav-bar #_desktop_user_info .user-info .bon-login-popup {
+        top: auto;
+        bottom: 194%;
+    }
+    #header .header-top {
+        padding: 10px 0;
+        .position-static .bon-nav-bar > div .icon-text {
+            display: none;
+        }
+    }
+
+    #header .header-banner .header-contact.right-block {
+        a {
+            font-size: 11px;
+            margin-right: 0;
+        }
+        li {
+            margin-left: 0;
+        }
+    }
+}

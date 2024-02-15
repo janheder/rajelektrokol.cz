@@ -1,0 +1,43 @@
+<svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="footer-svg_address">
+        <path d="M14.6569 14.6569C13.7202 15.5935 11.7616 17.5521 10.4138 18.8999C9.63275 19.681 8.36768 19.6814 7.58663 18.9003C6.26234 17.576 4.34159 15.6553 3.34315 14.6569C0.218951 11.5327 0.218951 6.46734 3.34315 3.34315C6.46734 0.218951 11.5327 0.218951 14.6569 3.34315C17.781 6.46734 17.781 11.5327 14.6569 14.6569Z" stroke="#FD540C" fill="transparent"/>
+        <path d="M12 9C12 10.6569 10.6569 12 9 12C7.34315 12 6 10.6569 6 9C6 7.34315 7.34315 6 9 6C10.6569 6 12 7.34315 12 9Z" stroke="#FD540C" fill="transparent"/>
+        <defs>
+            <linearGradient id="paint0_linear_1376_49" x1="1" y1="1" x2="19.9766" y2="16.7207" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FD370C"/>
+                <stop offset="1" stop-color="#FD540C"/>
+            </linearGradient>
+            <linearGradient id="paint1_linear_1376_49" x1="1" y1="1" x2="19.9766" y2="16.7207" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FD370C"/>
+                <stop offset="1" stop-color="#FD540C"/>
+            </linearGradient>
+        </defs>
+    </symbol>
+    <symbol id="footer-svg_phone">
+        <path d="M1 3C1 1.89543 1.89543 1 3 1H6.27924C6.70967 1 7.09181 1.27543 7.22792 1.68377L8.72574 6.17721C8.88311 6.64932 8.66938 7.16531 8.22427 7.38787L5.96701 8.5165C7.06925 10.9612 9.03878 12.9308 11.4835 14.033L12.6121 11.7757C12.8347 11.3306 13.3507 11.1169 13.8228 11.2743L18.3162 12.7721C18.7246 12.9082 19 13.2903 19 13.7208V17C19 18.1046 18.1046 19 17 19H16C7.71573 19 1 12.2843 1 4V3Z" stroke="#FD540C" fill="transparent"/>
+        <defs>
+            <linearGradient id="paint0_linear_1386_2" x1="1" y1="1" x2="19" y2="19" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FD370C"/>
+                <stop offset="1" stop-color="#FD540C"/>
+            </linearGradient>
+        </defs>
+    </symbol>
+    <symbol id="footer-svg_fax">
+        <path d="M15 15H17C18.1046 15 19 14.1046 19 13V9C19 7.89543 18.1046 7 17 7H3C1.89543 7 1 7.89543 1 9V13C1 14.1046 1.89543 15 3 15H5M7 19H13C14.1046 19 15 18.1046 15 17V13C15 11.8954 14.1046 11 13 11H7C5.89543 11 5 11.8954 5 13V17C5 18.1046 5.89543 19 7 19ZM15 7V3C15 1.89543 14.1046 1 13 1H7C5.89543 1 5 1.89543 5 3V7H15Z" stroke="#FD540C" fill="transparent"/>
+        <defs>
+            <linearGradient id="paint0_linear_1386_61" x1="1" y1="1" x2="19" y2="19" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FD370C"/>
+                <stop offset="1" stop-color="#FD540C"/>
+            </linearGradient>
+        </defs>
+    </symbol>
+    <symbol id="footer-svg_email">
+        <path d="M1 4L8.8906 9.2604C9.5624 9.70827 10.4376 9.70827 11.1094 9.2604L19 4M3 15H17C18.1046 15 19 14.1046 19 13V3C19 1.89543 18.1046 1 17 1H3C1.89543 1 1 1.89543 1 3V13C1 14.1046 1.89543 15 3 15Z" stroke="#FD540C" fill="transparent"/>
+        <defs>
+            <linearGradient id="paint0_linear_1386_26" x1="1" y1="1" x2="14.5692" y2="18.4462" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FD370C"/>
+                <stop offset="1" stop-color="#FD540C"/>
+            </linearGradient>
+        </defs>
+    </symbol>
+</svg>

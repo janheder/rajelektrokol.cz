@@ -1,0 +1,106 @@
+.search-widget {
+  display: inline-block;
+  @include search-box;
+}
+.header-top {
+  .search-widget {
+    form {
+      input[type="text"] {
+        min-width: inherit;
+        width: 100%;
+      }
+    }
+  }
+}
+#checkout {
+  #search_widget {
+    display: none; /* Not ideal solution by allows to reuse same hooks/templates */
+  }
+}
+
+#search_widget {
+  .bonsearch_btn {
+    background-color: $brand-primary;
+    cursor: pointer;
+    height: 44px;
+    width: 48px;
+    float: left;
+    z-index: 2;
+    margin-left: 5px;
+    transition: all .3s linear;
+    border: 1px solid transparent;
+
+    &:hover {
+      background-color: $brand-hover;
+      box-shadow: none;
+    }
+    &:after {
+      content: "\E049";
+      font-family: "bonicon";
+      font-size: 20px;
+      color: #ffffff;
+    }
+  }
+}
+
+#pagenotfound {
+  .page-content {
+    #search_widget {
+      .bonsearch_btn {
+        background-color: $brand-primary;
+        cursor: pointer;
+        height: 44px;
+        width: 48px;
+        float: left;
+        margin-left: 3px;
+        box-shadow: 4px 4px 4px rgba(0,0,0,.14);
+        transition: all .3s linear;
+        border: 1px solid transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        &:hover {
+          background-color: $brand-hover;
+          box-shadow: none;
+        }
+
+      //  &:before {
+      //    content: "\E049";
+      //    font-family: "bonicon";
+      //    font-size: 20px;
+      //    color: #f1eaea;
+      //}
+      }
+    }
+  }
+}
+
+.page-not-found {
+  .search-widget {
+    form {
+      display: inline-block;
+    }
+  }
+}
+
+/*** Responsive part ***/
+@media (max-width: 767px) {
+  .header-top {
+    .search-widget {
+      float: none;
+      form {
+        margin: 0 auto;
+        input[type="text"] {
+          min-width: inherit;
+          background: white;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 768px) {
+  .search-widget {
+    min-width: 15.63rem;
+  }
+}

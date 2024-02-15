@@ -1,0 +1,71 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+
+
+
+@media (max-width: 991px) {
+    #header .header-top .position-static .bon-nav-bar {
+        position: static;
+    }
+}
+
+#mobile_top_menu_wrapper {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+
+#mobile_top_menu_wrapper .js-top-menu-bottom {
+    border-bottom: 1px solid #626262;
+    border-top-color: #626262;
+}
+
+
+/* html bloky v detailu produktu*/
+.fsch-product-block{
+    background-color: #f8f8f8;    
+    color: #3a3a3a;
+    font-size: 13px;    
+}
+
+/*
+.fsch-product-block div.content{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;    
+} */   
+
+.fsch-product-block, .fsch-product-block p, .fsch-product-block ul{
+
+}
+
+.fsch-product-block ul{
+    list-style: disc;
+    padding-left: 30px;
+}
+
+.fsch-product-block img{
+    float: left;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 20px;
+}    
+
+/*Detail produktu*/
+#product-details .product-features{
+    color: #3a3a3a;
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 20px;
+    font-size: 13px;
+}
+
+div#product-description-short-4 ul{
+    list-style: circle;
+    padding-left: 20px;
+    font-size: 13px;
+    color: #7a7a7a;
+}
