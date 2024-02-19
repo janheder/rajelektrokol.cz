@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ps_emailalerts</name>
+    <displayName><![CDATA[Upozorněn&iacute; na e-maily]]></displayName>
+    <version><![CDATA[2.4.1]]></version>
+    <description><![CDATA[Usnadněte si každodenn&iacute; agendu. Zas&iacute;lejte e-mailov&aacute; ozn&aacute;men&iacute; ohledně skladov&yacute;ch z&aacute;sob a objedn&aacute;vek - v&aacute;m i va&scaron;im z&aacute;kazn&iacute;kům.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[administration]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>

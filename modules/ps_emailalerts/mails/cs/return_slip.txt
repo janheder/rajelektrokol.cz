@@ -1,0 +1,31 @@
+ 
+
+{shop_url}
+
+Dobrý den,
+
+Dostal(a) jste nový požadavek na vrácení zboží v {shop_name}.
+
+Detaily vrácení
+
+Objednávka: {order_name} Vytvořená {date}
+
+Zákazník: {firstname} {lastname}, ({email})
+
+Kód	Produkt	Počet   {items}
+
+Dodací adresa
+
+{delivery_block_html}
+
+Fakturační adresa
+
+{invoice_block_html}
+
+Zpráva od zákazníka:
+
+{message}
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop-project.org/)

@@ -30,12 +30,23 @@
 {*        </h1>*}
 {*    {/if}*}
 {/block}
+<div id="js-product-list-header" class="row revealOnScroll animated fadeInUp" data-animation="fadeInUp">
+    {if $category.description}
+    {if $listing.pagination.items_shown_from == 1}
+
+        <div id="category-description" class="text-muted">{$category.description nofilter}</div>
+       {if $category.image.large.url}
+      <div class="category-cover">
+          <img src="{$category.image.large.url}" alt="{if !empty($category.image.legend)}{$category.image.legend}{else}{$category.name}{/if}">
+      </div>
+      {/if} 
+
+    {/if}
+    {/if}
+</div>
 <div id="js-product-list-top" class="row products-selection revealOnScroll animated fadeInUp" data-animation="fadeInUp">
     <div class="col-md-6 d-none d-md-block total-products pl-0">
         <h1 class="h1">
-            {if isset($category.name) && $category.name}
-                {$category.name}
-            {/if}
             {if $listing.pagination.total_items > 1}
                 <span>{l s='%product_count% products.' d='Shop.Theme.Catalog' sprintf=['%product_count%' => $listing.pagination.total_items]}</span>
             {elseif $listing.pagination.total_items > 0}

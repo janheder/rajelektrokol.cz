@@ -1,0 +1,6 @@
+Customer name: {name}
+Customer email: {bonemail}
+Phone number: {phone}
+Product: {product_name}
+Product link: {product_link}
+Question: {Question}

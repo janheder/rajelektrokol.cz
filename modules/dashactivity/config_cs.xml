@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>dashactivity</name>
+    <displayName><![CDATA[N&aacute;stěnka aktivit]]></displayName>
+    <version><![CDATA[2.1.0]]></version>
+    <description><![CDATA[Jedn&iacute;m pohledem zkontrolujte, co se děje ve va&scaron;em obchodě, pomoc&iacute; seznamu KPI na va&scaron;em ř&iacute;dic&iacute;m panelu.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[administration]]></tab>
+    <is_configurable>0</is_configurable>
+    <need_instance>1</need_instance>
+</module>

@@ -1,0 +1,13 @@
+<style type="text/css">
+    .fsch-product-block {
+        margin-top: 2rem;
+        padding: 1.25rem;
+    }
+    .fsch-product-block p:last-child {
+        margin-bottom: 0;
+    }
+</style>
+<div class="card card-block fsch-product-block">
+    <h3 class="h3">{title}</h3>
+    {content}
+</div>

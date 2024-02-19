@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ps_imageslider</name>
+    <displayName><![CDATA[Posuvn&iacute;k obr&aacute;zku]]></displayName>
+    <version><![CDATA[3.1.2]]></version>
+    <description><![CDATA[Přidejte posuvn&iacute;k s obr&aacute;zky na va&scaron;i homepage a přiv&iacute;tejte va&scaron;e n&aacute;v&scaron;těvn&iacute;ky.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>

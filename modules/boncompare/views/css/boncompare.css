@@ -1,0 +1,466 @@
+#product .product-cover .boncompare-hook-wrapper:hover .compare-button path {
+    fill: #fc5b16;
+}
+#product .product-cover .boncompare-hook-wrapper .compare-button {
+    width: 20px;
+    height: 20px;
+}
+
+#product .product-cover .boncompare-hook-wrapper .compare-button:before {
+    transition: all .3s ease;
+}
+.boncompare-hook-wrapper:hover {
+    cursor: pointer;
+}
+.boncompare-hook-wrapper svg path {
+    fill: transparent;
+    transition: all .3s ease;
+}
+.boncompare-hook-wrapper:hover svg path {
+    fill: #fc5b16;
+}
+.boncompare-hook-wrapper svg * {
+    transition: all .3s ease;
+}
+.product-miniature .boncompare-hook-wrapper .compare-button {
+    z-index: 5;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all .3s ease;
+    color: #525252;
+}
+.boncompare-list .product-flags {
+    margin-top: 20px;
+}
+.product-miniature .boncompare-hook-wrapper .compare-button:before {
+    transition: all .3s ease;
+}
+#boncompare:hover .bonicon-compare, .boncompare-hook-wrapper:hover .compare-button::before {
+    color: #FC5B16;
+}
+.bonicon-compare.active::before {
+    content: "\e906";
+    color: #525252;
+}
+
+#boncompare .block-compare {
+    margin-top: 1px;
+}
+#header .bonicon-compare.active::before {
+    content: "\E905";
+    color: #3a3a3a;
+}
+
+#product .product-cover .boncompare-hook-wrapper {
+    display: inline-block;
+    position: absolute;
+    top: 45px;
+    right: 15px;
+    z-index: 9;
+}
+
+.boncompare-icon {
+    stroke: #3a3a3a;
+    transition: all .3s linear;
+}
+
+#boncompare .compare-tooltip i {
+    font-size: 23px;
+    transition: all .3s linear;
+    line-height: 135%;
+    vertical-align: -2px;
+}
+
+#boncompare:hover .compare-tooltip .boncompare-icon {
+    stroke: #FC5B16;
+}
+
+.boncompare-hook-wrapper .compare-button {
+    animation: pulsefas 1s ease;
+}
+
+.boncompare-hook-wrapper .compare-button .boncompare-icon {
+    stroke: #686868;
+}
+
+.boncompare-hook-wrapper .compare-button.active .boncompare-icon.round {
+    fill: #686868;
+}
+
+.boncompare-hook-wrapper .compare-button.active {
+    animation: pulsefar 1s ease;
+}
+.compare-button.active path {
+    fill: #fc5b16;
+}
+
+.quickview .boncompare-hook-wrapper {
+    display: none;
+}
+
+#boncompare .compare-tooltip {
+    transition: all .3s linear;
+    cursor: pointer;
+    position: relative;
+}
+#header:not(.sticky-head) .header-top:not(.sticky-head) #boncompare .compare-count {
+    color: #161616;
+}
+#boncompare .compare-count {
+    position: absolute;
+    right: -8px;
+    top: -3px;
+    color: #FC5B16;
+    border-radius: 50%;
+    font-size: 9px;
+    height: auto;
+    width: auto;
+    font-weight: 700;
+    line-height: 100%;
+    text-align: center;
+    display: block;
+    transition: all .2s linear;
+}
+
+
+#boncompare-popup .modal-body {
+    overflow-y: auto;
+}
+
+#boncompare-popup .div-table-row {
+    display: flex;
+    align-items: stretch;
+}
+
+#boncompare-popup .div-table {
+    display: table;
+    width: auto;
+}
+
+#boncompare-popup .div-table-row:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+#boncompare-popup .div-table-row:first-child {
+    border-bottom: 1px solid rgba(230, 230, 230, 0.3);
+    background-color: #fff;
+}
+
+#boncompare-popup .div-table-col {
+    width: 235px;
+    padding: 10px 20px;
+    font-size: 13px;
+    color: #7a7a7a;
+}
+
+#boncompare-popup .div-table-col.boncompare-features {
+    display: flex;
+    align-items: center;
+    width: 180px;
+}
+
+#boncompare-popup .div-table-col:not(.boncompare-features) {
+    text-align: center;
+}
+
+#boncompare-popup .div-table-col:not(:last-child) {
+    border-right: 1px solid rgba(230, 230, 230, 0.3);
+}
+
+#boncompare-popup .div-table-col h5 {
+    font-size: 15px;
+}
+
+#boncompare-popup .div-table-col h5,
+#boncompare-popup .div-table-col p {
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+
+#boncompare-popup img.img-responsive {
+    width: 100%;
+}
+
+#boncompare-popup .main-info {
+    position: relative;
+}
+
+#boncompare-popup .wish-button.active {
+    background-size: 17px 17px;
+}
+
+#boncompare-popup h6.product-title {
+    font-size: 15px;
+    line-height: 1.2;
+    margin: 15px 0;
+    transition: all .3s ease;
+    min-height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#boncompare-popup .product-title:hover,
+#boncompare-popup .compare_add_to_cart_button:hover i {
+    color: #FC5B16;
+}
+
+#boncompare-popup .no-compare {
+    text-align: center;
+}
+
+#boncompare-popup .no-compare h6 {
+    font-size: 16px;
+    margin: 26px 10px 0px 10px;
+}
+
+#boncompare-popup .compare-summary-product-price .price,
+#boncompare-popup .compare-summary-product-price .price.has-discount {
+    font-size: 14px;
+    color: #3a3a3a;
+}
+
+#boncompare-popup .compare-summary-product-price .regular-price {
+    font-size: 13px;
+    color: #3a3a3a;
+}
+
+#boncompare-popup .compare-summary-product-price .price.has-discount {
+    color: #ff4c4c;
+}
+
+#boncompare-popup .compare-button-delete {
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    right: 23px;
+    top: 13px;
+    z-index: 1;
+    transition: all 0.3s linear;
+}
+
+#boncompare-popup .compare-button-delete:after {
+    content: '\e5cd';
+    font-family: "Material Icons";
+    font-size: 17px;
+    color: #cac8c8;
+}
+
+#boncompare-popup .compare-button-delete:hover:after {
+    color: #afacac;
+}
+
+#boncompare-popup .product-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 15px 0 8px;
+    align-items: center;
+}
+
+#boncompare-popup .comments_note {
+    width: auto;
+}
+
+#boncompare-popup .comments_scroll {
+    display: flex;
+    justify-content: space-between;
+    cursor: unset;
+}
+
+#boncompare-popup .comments_scroll .star_content,
+#boncompare-popup .compare_add_to_cart {
+    display: flex;
+}
+
+#boncompare-popup .comments_note a span:hover {
+    color: unset;
+}
+
+#boncompare-popup .compare_add_to_cart_button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding-left: 0;
+    outline: none;
+}
+
+#boncompare-popup .bonwishlist-hook-wrapper {
+    padding: 0 10px;
+}
+
+#boncompare-popup .bonwishlist-hook-wrapper .wish-button {
+    position: unset;
+    font-size: 17px;
+    vertical-align: -4px;
+}
+
+#boncompare-popup .compare_add_to_cart_button i:before {
+    font-size: 18px;
+}
+
+#boncompare-popup .compare_add_to_cart_button i {
+    transition: all .2s linear;
+}
+
+#boncompare-popup .popup-close {
+    right: 4px;
+    top: 12px;
+}
+
+#boncompare-popup .popup-close:after {
+    color: #d0d0d0;
+}
+
+#boncompare-popup .popup-close:hover:after {
+    color: #b3afaf;
+}
+
+#boncompare-popup .title {
+    background-color: #F5F5F5;
+    padding: 13px 0;
+    border-bottom: 1px solid rgba(159, 159, 159, 0.34);
+    font-size: 18px;
+    color: #3a3a3a;
+    margin: 0;
+    text-align: center;
+}
+
+#boncompare-popup .modal-body::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+#boncompare-popup .compare-attr span:last-child {
+    display: none;
+}
+
+#boncompare-popup .modal-dialog {
+    max-width: 100%;
+}
+
+#boncompare-popup .modal-content {
+    width: max-content;
+}
+
+
+@media only screen and (min-width: 576px) {
+    #boncompare-popup .modal-body {
+        max-width: 540px;
+        max-height: calc(100vh - 150px);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #boncompare-popup .modal-body {
+        max-width: 720px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #boncompare-popup .modal-body {
+        max-width: 960px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .thumbnail-container .boncompare-hook-wrapper {
+        display: none;
+    }
+
+    #category .products-grid.active .product-one .thumbnail-container .thumbnail-container-inner .thumbnail-container-images .product-thumbnail .boncompare-hook-wrapper {
+        display: block;
+    }
+
+    #boncompare-popup .modal-body {
+        max-height: 800px;
+        max-width: 1250px;
+    }
+
+    .thumbnail-container:hover .boncompare-hook-wrapper {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #boncompare-popup .div-table {
+        margin: 0 auto;
+    }
+
+    #boncompare-popup .div-table-col.boncompare-features {
+        display: none;
+    }
+
+    #boncompare-popup .div-table-col {
+        width: 160px;
+        padding: 10px;
+    }
+
+    #boncompare-popup .div-table-col h5 {
+        font-size: 14px;
+    }
+
+    #boncompare-popup .comments_scroll span {
+        display: none;
+    }
+
+    #boncompare-popup .product-info {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #boncompare-popup .compare_add_to_cart {
+        padding-top: 3px;
+    }
+
+    #boncompare-popup .comments_scroll {
+        justify-content: center;
+    }
+
+    body #boncompare-popup .modal-dialog {
+        margin: 30px auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    #boncompare-popup .modal-content {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    body #boncompare-popup .modal-dialog {
+        display: inherit;
+    }
+
+    #boncompare-popup .div-table-col {
+        width: 140px;
+    }
+
+    #boncompare-popup .product-flags {
+        display: none;
+    }
+
+    #boncompare-popup h6.product-title {
+        font-size: 13px;
+    }
+
+    #boncompare-popup .div-table-col {
+        font-size: 12px;
+    }
+
+    #boncompare-popup .div-table-row:nth-child(odd) {
+        background-color: #fff;
+    }
+
+    #boncompare-popup .title {
+        padding: 13px 10px;
+        font-size: 15px;
+    }
+}
+
+@media (max-height: 800px) {
+    #boncompare-popup .modal-dialog-centered {
+        height: auto;
+    }
+}

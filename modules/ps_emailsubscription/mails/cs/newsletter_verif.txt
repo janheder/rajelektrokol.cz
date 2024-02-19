@@ -1,0 +1,12 @@
+ 
+
+{shop_url}
+
+Dobrý den,
+
+Děkujeme, že jste se přihlásili k odběru našich novinek. Svou žádost potvrďte kliknutím na následující odkaz:
+{verif_url}
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop-project.org/)

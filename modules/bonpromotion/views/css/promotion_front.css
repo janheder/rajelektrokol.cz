@@ -1,0 +1,353 @@
+#bonpromotion {
+  overflow: hidden;
+}
+#bonpromotion ul,
+#bonpromotion ul li {
+  max-height: inherit;
+}
+#bonpromotion .video {
+  overflow: hidden;
+}
+#bonpromotion li.image .box-timer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+#bonpromotion li.image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#bonpromotion .video .box-promotion {
+  padding: 140px 30px 180px 8%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#bonpromotion .video .box-promotion {
+  padding: 277px 30px 0;
+  text-align: center;
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  width: calc(100vw - 77px);
+  z-index: 11;
+}
+#bonpromotion i{
+  color: #fff;
+  font-size: 17px;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+#bonpromotion .box-promotion .box-promotion-desc h3 {
+  line-height: 100%;
+  letter-spacing: 1px;
+  font-weight: 800;
+  color: #FD370C;
+  text-transform: uppercase;
+}
+#bonpromotion .box-promotion .video .box-promotion-desc h4 {
+  display: flex;
+  align-items: center;
+}
+#bonpromotion .box-promotion .box-promotion-desc h4 {
+  margin: 0;
+}
+#bonpromotion .box-promotion .box-promotion-desc h4 span {
+  display: inline-block;
+  color: #4D4D4D;
+  font-family: 'Kanit';
+  font-weight: 500;
+  line-height: 150%;
+}
+#bonpromotion .box-promotion .box-promotion-desc h4 span span {
+  font-weight: 500;
+  color: #7a7a7a;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+#bonpromotion .video .box-promotion .box-promotion-desc h4 strong {
+  font-weight: 600;
+  font-size: 80px;
+}
+#bonpromotion .bonpromotion-countdown {
+  position: relative;
+  display: flex;
+  align-items: start;
+}
+#bonpromotion .image .bonpromotion-countdown {
+  justify-content: start;
+}
+#bonpromotion .bonpromotion-countdown > span {
+  color: #3a3a3a;
+  font-weight: 400;
+  line-height: 200%;
+  text-align: center;
+}
+#bonpromotion .bonpromotion-countdown > span:first-child{
+  margin-left: 0;
+  padding-left: 0;
+}
+#bonpromotion .bonpromotion-countdown > div.promo-dots {
+  color: #3a3a3a;
+  font-family: 'Kanit';
+}
+#bonpromotion .bonpromotion-countdown > span span {
+  margin: 0;
+  color: #fff;
+  line-height: 100%;
+  font-weight: 400;
+  background-color: #fd450c;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  font-family: 'Kanit';
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  justify-content: center;
+}
+/*button styles*/
+
+#bonpromotion ul li a:focus,
+#bonpromotion ul li a:active{
+  outline: none;
+}
+#bonpromotion .image .link-promotion {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#bonpromotion .video .link-promotion {
+  position: relative;
+}
+#bonpromotion .image .box-promotion-desc {
+  text-align: left;
+}
+#bonpromotion .box-promotion .box-promotion-desc .box-promotion-title,
+#bonpromotion .box-promotion .box-promotion-desc .box-promotion-subtitle {
+  margin: 0 auto;
+}
+#bonpromotion .box-promotion .box-promotion-desc .box-promotion-title {
+  position: relative;
+  z-index: 1;
+}
+#bonpromotion .image .bonpromotion-countdown span:first-child {
+  margin-left: 0;
+}
+@media screen and (min-width: 1881px){
+  #bonpromotion li.image {
+    padding: 257px 0 110px 0;
+  }
+  #bonpromotion .video {
+    max-height: 615px;
+  }
+  #bonpromotion .video .box-promotion {
+    padding-top: calc(230px + (20 - 175) * ((100vw - 120px) / (4000 - 120)));
+  }
+  #bonpromotion .video .bonpromotion-countdown > span {
+    padding: 10px;
+    font-size: 14px;
+    margin: 0 10px;
+  }
+  #bonpromotion .video .box-promotion .box-promotion-desc h3 {
+    font-size: 70px;
+    margin-bottom: 33px;
+    max-width: 400px;
+  }
+  #bonpromotion .video .bonpromotion-countdown > span span {
+    font-size: 30px;
+    height: 40px;
+  }
+  #bonpromotion .video .box-promotion .box-promotion-desc h4 span {
+    font-size: 14px;
+    max-width: 320px;
+  }
+  #bonpromotion .video .box-promotion {
+    padding-bottom: 130px;
+    padding-top: 130px;
+  }
+  #bonpromotion .box-promotion .box-promotion-desc .box-promotion-subtitle{
+    margin-bottom: 33px;
+  }
+  #bonpromotion .bonpromotion-countdown > div.promo-dots {
+    padding: 16px 10px;
+    font-size: 40px;
+  }
+  #bonpromotion .image .bonpromotion-countdown > span {
+    font-size: 11px;
+    min-width: 65px;
+  }
+  #bonpromotion .image .box-promotion .box-promotion-desc h3 {
+    font-size: 70px;
+    max-width: 400px;
+  }
+  #bonpromotion .image .bonpromotion-countdown > span span {
+    font-size: 24px;
+    padding: 16px;
+  }
+  #bonpromotion .image .box-promotion .box-promotion-desc h4 span {
+    font-size: 24px;
+    max-width: 378px;
+  }
+  #bonpromotion .image .link-promotion .box-promotion {
+    padding-left: 13px;
+  }
+  #bonpromotion .image .link-promotion .box-promotion {
+    padding-right: 13px;
+  }
+}
+@media (max-width: 1880px) {
+  #bonpromotion .image .bonpromotion-countdown > span {
+    min-width: calc(30px + (65 - 30) * ((100vw - 320px) / (1880 - 320)));
+  }
+  #bonpromotion .video {
+    max-height: calc(300px + (615 - 300) * ((100vw - 320px) / (1880 - 320)));
+  }
+  #bonpromotion .video .bonpromotion-countdown > span {
+    padding: calc(3px + (10 - 3) * ((100vw - 320px) / (1880 - 320)));
+    margin: 0 calc(3px + (10 - 3) * ((100vw - 320px) / (1880 - 320)));
+    font-size: calc(10px + (14 - 10) * ((100vw - 320px) / (1880 - 320)));
+  }
+  #bonpromotion .box-promotion .box-promotion-desc .box-promotion-subtitle {
+    margin-bottom: calc(5px + (33 - 5) * ((100vw - 320px) / (1880 - 320)));
+  }
+  #bonpromotion .video .box-promotion .box-promotion-desc h4 span {
+    font-size: calc(10px + (14 - 10) * ((100vw - 320px) / (1880 - 320)));
+    max-width: calc(200px + (320 - 200) * ((100vw - 320px) / (1880 - 320)));
+  }
+  #bonpromotion .bonpromotion-countdown > div.promo-dots {
+    font-size: calc(14px + (40 - 15) * ((100vw - 320px) / (1880 - 320)));
+    padding: calc(5px + (16 - 5) * ((100vw - 320px) / (1880 - 320))) calc(3px + (10 - 3) * ((100vw - 320px) / (1880 - 320)));
+  }
+  #bonpromotion .video .bonpromotion-countdown > span span {
+    font-size: calc(14px + (30 - 14) * ((100vw - 320px) / (1880 - 320)));
+    height: calc(10px + (40 - 10) * ((100vw - 320px) / (1880 - 320)));
+  }
+  #bonpromotion .video .box-promotion {
+    padding-bottom: calc(70px + (130 - 70) * ((100vw - 320px) / (1880 - 320)));
+    padding-top: calc(70px + (130 - 70) * ((100vw - 320px) / (1880 - 320)));
+  }
+  #bonpromotion .video .box-promotion {
+    padding-top: 120px;
+  }
+  #bonpromotion .video .box-promotion .box-promotion-desc h3 {
+    font-size: calc(25px + (70 - 25) * ((100vw - 320px) / (1880 - 320)));
+    margin-bottom: calc(5px + (33 - 5) * ((100vw - 320px) / (1880 - 320)));
+    max-width: calc(250px + (400 - 250) * ((100vw - 320px) / (1880 - 320)));
+  }
+}
+
+@media (max-width: 991px) {
+  #bonpromotion .video .box-promotion {
+    width: calc(100vw);
+  }
+  #bonpromotion .video .bonpromotion-countdown > div.promo-dots{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  #bonpromotion .video .box-promotion  .box-promotion-desc h2 {
+    font-size: 19px;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #bonpromotion .video .box-promotion h2 {
+    font-size: 19px;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1800px) {
+  #bonpromotion .video .box-promotion {
+    top: 12%;
+  }
+}
+@media screen and (min-width: 577px) {
+  #bonpromotion .image .link-promotion > div {
+    flex: 0 0 50%;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 1880px) {
+  #bonpromotion .image .bonpromotion-countdown > span {
+    font-size: calc(10px + (11 - 10) * ((100vw - 320px) / (1880 - 320)));
+  }
+  #bonpromotion .image .box-promotion .box-promotion-desc h4 span {
+    font-size: calc(12px + (24 - 12) * ((100vw - 320px) / (1880 - 320)));
+    max-width: calc(200px + (378 - 200) * ((100vw - 320px) / (1880 - 320)));
+  }
+  #bonpromotion .image .bonpromotion-countdown > span span {
+    font-size: calc(14px + (24 - 14) * ((100vw - 320px) / (1880 - 320)));
+    padding: calc(5px + (16 - 5) * ((100vw - 320px) / (1880 - 320)));
+  }
+  #bonpromotion .image .box-promotion .box-promotion-desc h3 {
+    font-size: calc(25px + (70 - 25) * ((100vw - 320px) / (1880 - 320)));
+    max-width: calc(250px + (400 - 250) * ((100vw - 320px) / (1880 - 320)));
+  }
+  #bonpromotion .image .link-promotion .box-promotion {
+    padding-left: calc(8px + (13 - 8) * ((100vw - 576px) / (1880 - 576)));
+  }
+  #bonpromotion .image .link-promotion .box-promotion {
+    padding-right: calc(8px + (13 - 8) * ((100vw - 576px) / (1880 - 576)));
+  }
+  #bonpromotion li.image {
+    padding: calc(100px + (257 - 100) * ((100vw - 576px) / (1880 - 576))) 0 calc(50px + (110 - 50) * ((100vw - 576px) / (1880 - 576))) 0;
+  }
+}
+@media screen and (max-width: 575px){
+  #bonpromotion .image .box-promotion-subtitle,
+  #bonpromotion .video .bonpromotion-countdown-btn-wrapper,
+  #bonpromotion .video .box-promotion .box-promotion-desc h4 span,
+  #bonpromotion .video .bonpromotion-countdown > div.promo-dots {
+    display: none;
+  }
+  #bonpromotion .image .link-promotion {
+    flex-direction: column;
+  }
+  #bonpromotion .box-promotion .box-promotion-desc h4 span {
+    max-width: 100%;
+  }
+  #bonpromotion .box-promotion .box-promotion-desc h3 {
+    max-width: 100%;
+  }
+  #bonpromotion .image .link-promotion > div {
+    width: 100%;
+  }
+  #bonpromotion .image .bonpromotion-countdown > span {
+    font-size: calc(10px + (11 - 10) * ((100vw - 320px) / (575 - 320)));
+  }
+  #bonpromotion .image .box-promotion .box-promotion-desc h4 span {
+    font-size: calc(10px + (14 - 10) * ((100vw - 320px) / (575 - 320)));
+  }
+  #bonpromotion .image .bonpromotion-countdown > span span {
+    font-size: calc(14px + (24 - 14) * ((100vw - 320px) / (575 - 320)));
+    padding: calc(5px + (16 - 5) * ((100vw - 320px) / (1880 - 320)));
+  }
+  #bonpromotion .image .box-promotion .box-promotion-desc h3 {
+    font-size: calc(35px + (70 - 35) * ((100vw - 320px) / (575 - 320)));
+  }
+  #bonpromotion li.image {
+    padding: calc(100px + (240 - 100) * ((100vw - 320px) / (575 - 320))) 0 calc(50px + (100 - 50) * ((100vw - 320px) / (575 - 320))) 0;
+  }
+  #bonpromotion .image .bonpromotion-countdown {
+    justify-content: center;
+    margin: calc(15px + (40 - 15) * ((100vw - 320px) / (575 - 320))) 0;
+  }
+  #bonpromotion .image .bonpromotion-countdown-btn-wrapper,
+  #bonpromotion .image .box-promotion-desc {
+    text-align: center;
+  }
+}
+
+
+
+
+
+

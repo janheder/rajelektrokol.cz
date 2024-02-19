@@ -1,0 +1,28 @@
+<style type="text/css">
+    #fsch-embed-{id_html_block} {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow:hidden;
+        max-width: 100%;
+    }
+    #fsch-embed-{id_html_block} iframe,
+    #fsch-embed-{id_html_block} object,
+    #fsch-embed-{id_html_block} embed {
+        position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    }
+    #fsch-title-{id_html_block} {
+        background: #ffffff;
+    }
+    #fsch-title-{id_html_block} h5 {
+        margin-bottom: 0;
+    }
+</style>
+<div class="card">
+    <div class="card-header" id="fsch-title-{id_html_block}">
+        <h5>{title}</h5>
+    </div>
+    <div id="fsch-embed-{id_html_block}">
+        {content}
+    </div>
+</div>

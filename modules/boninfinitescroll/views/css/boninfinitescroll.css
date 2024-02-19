@@ -1,0 +1,20 @@
+#index  #products .pagination {
+     display: none;
+ }
+
+ .bon-scroll-button-wrapper {
+     display: flex;
+     justify-content: center;
+     margin-bottom: 20px;
+ }
+
+ .bon-scroll-button {
+     cursor: pointer;
+ }
+
+ .bon-scroll-button:not(.display) {
+     display: none;
+ }
+
+ 
+ 

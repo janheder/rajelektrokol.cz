@@ -1,0 +1,4 @@
+Customer name: {name}
+Phone number: {phone}
+Product: {product_name}
+Product link: {product_link}

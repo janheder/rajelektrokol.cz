@@ -1,0 +1,119 @@
+body .gpay-card-info-container.black,
+body .gpay-card-info-animation-container.black {
+    background-color: #3a3a3a;
+    transition: all .2s linear;
+}
+
+body .gpay-card-info-container.black.hover,
+body .gpay-card-info-animation-container.black.hover {
+    background-color: #000;
+}
+
+body .gpay-card-info-container:focus {
+    outline: none !important;
+}
+
+#bon-google-checkout {
+    margin: 20px 0;
+}
+
+.bongoogle-success-modal .popup-close {
+    position: absolute;
+    right: -40px;
+    top: -26px;
+    z-index: 100;
+    background-color: transparent;
+    cursor: pointer;
+    color: #fff;
+}
+
+.bongoogle-success-modal .popup-close:after {
+    content: '\e5cd';
+    font-family: "Material Icons";
+    font-size: 25px;
+    color: #fff;
+    transition: all 0.3s linear;
+}
+
+.bongoogle-success-modal .modal-content {
+    border-radius: 0;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 13px 1px rgba(0, 0, 0, 0.12);
+}
+
+.bongoogle-success-modal .modal-body {
+    padding: 15px 40px 30px 40px;
+    text-align: center;
+}
+
+.bongoogle-success-modal .modal-dialog.modal-dialog-centered {
+    display: flex;
+    justify-content: center;
+}
+
+.bongoogle-success-modal .modal-body h2 {
+    margin: 30px 0 15px;
+}
+
+.bongoogle-success-modal .modal-body h5 {
+    color: #747474;
+}
+
+.bongoogle-success-modal .bongoogle-success-icon {
+    width: 84px;
+    height: 84px;
+    margin: 0 auto;
+    margin-top: -60px;
+    background: #50D8A2;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.bongoogle-success-modal .bongoogle-success-icon i:before {
+    content: '\e5ca';
+    font-family: 'Material Icons';
+}
+
+.bongoogle-success-modal .bongoogle-success-icon.error i:before {
+    content: '\e14c';
+    font-family: 'Material Icons';
+}
+
+.bongoogle-success-modal .bongoogle-success-icon.error {
+    background: rgb(228, 39, 39);
+}
+
+body#checkout section.checkout-step .bon-googlepay-required {
+    color: rgb(228, 39, 39);
+    display: none;
+}
+
+body#checkout section.checkout-step .bon-googlepay-required.active {
+    display: block;
+}
+
+.bongoogle-success-modal .bongoogle-success-icon.error:after {
+    background: rgba(228, 39, 39, 0.08);
+
+}
+
+.bongoogle-success-modal .bongoogle-success-icon:after {
+    width: 113px;
+    height: 113px;
+    background: rgba(80, 216, 162, 0.08);
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.bongoogle-success-modal .bongoogle-success-icon i {
+    color: #fff;
+    font-size: 47px;
+}

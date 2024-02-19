@@ -1,0 +1,23 @@
+.bootstrap .bobonnews>tbody tr.ui-sortable-helper td {
+    color: #fff !important;
+    right: 0 !important;
+    background-color: #00aff0 !important;
+    -moz-transform: translate(5px, 10px);
+    -ms-transform: translate(5px, 10px);
+    -webkit-transform: translate(5px, 10px);
+    transform: translate(5px, 10px)
+}
+
+.ui-sortable-helper {
+    display: table;
+}
+
+.img-bonnews {
+    width: 150px;
+    height: auto;
+}
+
+/* 
+.files_lang_cover {
+    display: none;
+} */

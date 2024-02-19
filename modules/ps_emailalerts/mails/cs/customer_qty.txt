@@ -1,0 +1,15 @@
+ 
+
+{shop_url}
+
+Dobrý den,
+
+{product} je nyní dostupný.
+
+Dobrá zpráva, tento produkt je skladem!
+
+Kliknutím na následující odkaz přejdete na stránku produktu a objednáte ho: [{product}]({product_link})
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop-project.org/)

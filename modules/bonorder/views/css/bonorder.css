@@ -1,0 +1,157 @@
+#bonorder {
+    padding: 30px;
+    border-radius: 0;
+}
+
+#btn-bonorder {
+    float: right;
+    margin-top: -81px;
+
+}
+#btn-bonorder a.btn-bonorder span {
+    float: right;
+    line-height: 200%;
+}
+#btn-bonorder a.btn-bonorder {
+    color: #fff;
+        text-transform: uppercase;
+    font-weight: 400;
+    white-space: inherit;
+    transition: all .2s linear;
+  }
+
+#bonorder-wrapper fieldset {
+    margin-top: 0;
+}
+
+#bonorder-wrapper .modal-body {
+    overflow: hidden;
+}
+
+#bonorder-wrapper .submit {
+    padding-top: 5px;
+}
+
+#bonorder sup {
+    color: red;
+    font-weight: bold;
+}
+
+#bonorder label {
+    font-size: 14px;
+    display: block;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+#bonorder .modal-content {
+    border-radius: 0;
+}
+
+#bonorder-wrapper .image-sticky-order {
+    width: 50%;
+    float: left;
+    margin-right: 15px;
+}
+
+#bonorder-wrapper label {
+    text-align: left;
+}
+
+#bonorder-wrapper .modal-content {
+    border-radius: 0;
+}
+
+#bonorder .quickbuy_errors,
+#bonorder .quickbuy_success {
+    margin: 0 15px;
+    display: none;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.btn-bonorder {
+    padding: 15px 16px;
+    font-size: 15px;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+
+}
+
+.btn-bonorder:hover,
+.btn-bonorder:focus {
+    color: #fff;
+}
+
+.btn-bonorder:after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    background: url('../img/click.png') no-repeat 0 0;
+    margin-right: 10px;
+    vertical-align: -13px;
+    background-size: cover;
+}
+
+.bon_order_success.alert.alert-success {
+    margin: 0;
+    padding-top: 0;
+}
+
+#btn-bonorder a.btn-bonorder {
+    text-transform: uppercase;
+    font-weight: 600;
+    white-space: inherit;
+    border: none;
+    transition: all .5s;
+    background: #3A3A3A;
+    letter-spacing: .4px;
+}
+#btn-bonorder a.btn-bonorder:before {
+    background: #525252;
+}
+#btn-bonorder a.btn-bonorder:hover span,
+#btn-bonorder a.btn-bonorder:active span,
+#btn-bonorder a.btn-bonorder:focus span{
+    color: #fff;
+}
+#btn-bonorder a.btn-bonorder:hover {
+    background: #212121;
+    box-shadow: 2px 2px 3px rgba(0,0,0,.08);
+}
+#btn-bonorder a.btn-bonorder:hover:after,
+#btn-bonorder a.btn-bonorder:active:after,
+#btn-bonorder a.btn-bonorder:focus:after {
+    filter: invert(0);
+}
+
+@media screen and (max-width: 1200px) {
+    #btn-bonorder {
+        margin-top: 0;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #bonorder-wrapper .image-sticky-order {
+        display: none;
+    }
+
+    #bonorder-wrapper .modal-dialog {
+        margin: 100px auto;
+    }
+
+    #bonorder-wrapper label {
+        margin: 10px 0;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    #bonorder-wrapper .modal-open .modal {
+        margin: 0 10px
+    }
+}

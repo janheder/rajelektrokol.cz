@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ps_customeraccountlinks</name>
+    <displayName><![CDATA[Blok s informacemi o &uacute;čtu]]></displayName>
+    <version><![CDATA[3.2.0]]></version>
+    <description><![CDATA[Přiv&iacute;tejte sv&eacute; z&aacute;kazn&iacute;ky jejich osobn&iacute;mi &uacute;daji zobrazen&yacute;mi př&iacute;mo v patičce.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>0</is_configurable>
+    <need_instance>0</need_instance>
+</module>

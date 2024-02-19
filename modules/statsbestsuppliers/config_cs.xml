@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>statsbestsuppliers</name>
+    <displayName><![CDATA[Nejlep&scaron;&iacute; dodavatel&eacute;]]></displayName>
+    <version><![CDATA[2.0.2]]></version>
+    <description><![CDATA[Obohaťte sv&eacute; statistiky: přidejte na svůj panel seznam nejlep&scaron;&iacute;ch dodavatelů.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[administration]]></tab>
+    <is_configurable>0</is_configurable>
+    <need_instance>0</need_instance>
+</module>

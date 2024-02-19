@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>bonlookbookfw</name>
+    <displayName><![CDATA[Full width lookbook gallery with products and slider]]></displayName>
+    <version><![CDATA[1.0.0]]></version>
+    <description><![CDATA[Allows you to create a gallery of pictures with product marks, also using a slider for display.]]></description>
+    <author><![CDATA[Bonpresta]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[This module  Uninstall]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>

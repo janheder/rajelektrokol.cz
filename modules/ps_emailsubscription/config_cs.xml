@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ps_emailsubscription</name>
+    <displayName><![CDATA[Odběr newsletteru]]></displayName>
+    <version><![CDATA[2.7.1]]></version>
+    <description><![CDATA[Zůstaňte v kontaktu s va&scaron;imi z&aacute;kazn&iacute;ky. Přidejte na homepage obchodu formul&aacute;ř pro odběr newsletteru.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[pricing_promotion]]></tab>
+	<confirmUninstall><![CDATA[Jste si jisti, že chcete odstranit všechny své kontakty?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>

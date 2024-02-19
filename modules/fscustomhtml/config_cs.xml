@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>fscustomhtml</name>
+    <displayName><![CDATA[Custom HTML Block]]></displayName>
+    <version><![CDATA[3.2.1]]></version>
+    <description><![CDATA[Add multiple custom HTML/JavaScript block to your webshop.]]></description>
+    <author><![CDATA[ModuleFactory]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to uninstall?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>

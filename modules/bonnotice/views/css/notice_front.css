@@ -1,0 +1,274 @@
+
+#bon_ship {
+    text-align: center;
+    width: 100%;
+    z-index: 100;
+    /* display: none; */
+}
+#bon_ship a {
+    color: #fff;
+}
+#bon_ship.active{
+    display: none;
+}
+
+.bon-shipping.shipping-boxed {
+    max-width: 1500px;
+    align-self: center;
+}
+
+.bon-shipping a {
+    color: #fff;
+    text-decoration:  none;
+}
+
+.bon-shipping a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bon-shipping p {
+    margin: 0;
+    padding: 0 10px 0 0 ;
+    font-weight: 300;
+    color: white;
+}
+
+.bon-shipping strong {
+    font-weight: 400;
+}
+
+
+/*Style FOR 1.7*/
+.bon_ship_version_1_7 .bon-shipping-close{
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    height: 21px;
+    width: 21px;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.bon_ship_version_1_7 .bon-shipping-close:after {
+    font-family: "Material Icons";
+    content: "\e5cd";
+    font-size: 18px;
+}
+
+.bon_ship_version_1_7 .bon-shipping-close:hover{
+    /* transform: rotate(180deg); */
+    color: rgb(230, 230, 230);
+    cursor: pointer;
+}
+
+.bon_notice-countdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 195px;
+    transform: translate(-10px, 10px);
+}
+
+.bon_notice-countdown .first_span {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.bon_notice-countdown > .first_span:not(:last-child):after {
+    content: '\003A';
+    font-size: 25px;
+    transform: translate(28px, -42px);
+}
+
+.style_countdown {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    flex-direction: column;
+}
+
+.bon_ship_version_1_7 .bon-shipping-link {
+    color: #5c5c5c;
+    position: relative;
+    display: flex;
+}
+
+.bon_ship_version_1_7 .bon-shipping-link:after {
+    font-family: "Material Icons";
+    content: "\e876";
+    font-size: 18px;
+    color: #5c5c5c;
+    transition: all 0.3s ease;
+    margin-left: 5px;
+    transform: scale(1);
+    width: 100%;
+
+}
+
+.bon_ship_version_1_7 .bon-shipping-link:before{
+    content: "";
+    height: 1px;
+    background-color: white;
+    width: 55%;
+    transition: all 0.3s, easy;
+    position: absolute;
+    top: 20px;
+}
+
+.bon_ship_version_1_7 .bon-shipping-link:hover::after {
+    transform: scale(0.9);
+}
+
+.bon_ship_version_1_7 .bon-shipping-link:hover::before {
+    width: 0;
+}
+
+/*Style FOR 1/6*/
+.bon_ship_version_1_6 .bon-shipping-link {
+    color: #5c5c5c;
+    position: relative;
+    display: flex;
+}
+
+.bon_ship_version_1_6 .bon-shipping-link:after {
+    font-family: "FontAwesome";
+    content: "\f00c";
+    font-size: 18px;
+    color: #5c5c5c;
+    transition: all 0.3s ease;
+    margin-left: 5px;
+    transform: scale(1);
+    width: 100%;
+}
+
+.bon_ship_version_1_6 .bon-shipping-link:before {
+    content: "";
+    height: 1px;
+    background-color: white;
+    width: 55%;
+    transition: all 0.3s, easy;
+    position: absolute;
+    top: 20px;
+}
+
+.bon_ship_version_1_6 .bon-shipping-link:hover:after {
+    transform: scale(0.9);
+}
+
+.bon_ship_version_1_6 .bon-shipping-link:hover::before {
+    width: 0;
+}
+
+.bon_ship_version_1_6 .bon-shipping-close{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 21px;
+    width: 21px;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.bon_ship_version_1_6 .bon-shipping-close:after {
+    font-family: "FontAwesome";
+    content: "\f00d";
+    font-size: 22px;
+}
+
+.bon_ship_version_1_6 .bon-shipping-close:hover{
+    transform: rotate(180deg);
+    color: #000;
+    cursor: pointer;
+}
+
+.bon_ship_version_1_6 .bon_notice-countdown > .first_span:not(:last-child):after {
+    content: '\003A';
+    font-size: 25px;
+    transform: translate(28px, -39px);
+}
+
+
+@media only screen and (max-width : 768px) {
+    .bon_free_ship {
+        flex-direction: column;
+        padding: 5px 0;
+    }
+    .bon-shipping p {
+        padding: 0 20px 0 0;
+    }
+    #bon_ship .bon_free_ship .bon-shipping-link{
+        display: inline-block;
+    }
+    #bon_ship .bon_notice-countdown {
+        transform: none;
+    }
+    .bon-shipping  .bon-shipping-close i {
+        font-size: 16px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .bon-shipping  .bon-shipping-close i:hover {
+        cursor: pointer;
+    }
+    .style_countdown {
+        font-size: 14px;
+    }
+    .bon_ship_version_1_7 .bon-shipping-close {
+        top: 0;
+        right: 0;
+    }
+
+    .productcountdown {
+        display: none;
+    }
+}
+
+.bon-shipping a:hover {
+    text-decoration: none;
+}
+
+
+.bon-shipping a:hover:after {
+    transform: scaleX(1);
+    width: 100%;
+}
+
+.bon-shipping a{
+    position: relative;
+}
+
+.bon-shipping a:after {
+    background: #fff;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 83%;
+    height: 1px;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    transition: all .3s linear;
+}
+
+@media screen and (min-width: 1881px) {
+    #bon_ship {
+        padding: 7px 0;
+    }
+    .bon-shipping a,
+    .bon-shipping p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 1880px) {
+    #bon_ship {
+        padding: calc(0px + (7 - 0) * ((100vw - 320px) / (1880 - 320))) 0;
+    }
+    .bon-shipping a,
+    .bon-shipping p {
+        font-size: calc(11px + (14 - 11) * ((100vw - 320px) / (1880 - 320)));
+    }
+}

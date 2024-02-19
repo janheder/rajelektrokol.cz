@@ -1,0 +1,32 @@
+<style type="text/css">
+    #fsch-heading-{id_html_block} {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        cursor: pointer;
+    }
+    #fsch-heading-{id_html_block} h5 {
+        margin-bottom: 0;
+    }
+    #fsch-heading-{id_html_block}.collapsed {
+        background: #ffffff;
+    }
+    #fsch-collapse-{id_html_block} img {
+        max-width: 100%;
+    }
+</style>
+<div class="card">
+    <div data-toggle="collapse" data-target="#fsch-collapse-{id_html_block}" class="card-header collapsed" role="tab" id="fsch-heading-{id_html_block}">
+        <h5 class="mb-0">
+            {title}
+        </h5>
+    </div>
+    <div id="fsch-collapse-{id_html_block}" class="collapse" role="tabpanel" aria-labelledby="fsch-heading-{id_html_block}">
+        <div class="card-block">
+            {content}
+        </div>
+    </div>
+</div>

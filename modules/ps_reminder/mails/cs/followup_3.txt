@@ -1,0 +1,17 @@
+ 
+
+{shop_url}
+
+Dobrý den {firstname} {lastname},
+
+Děkujeme za Vaši důvěru.
+
+S potěšením vám můžeme poskytnout slevu {amount}% z vaší další objednávky! Tato nabídka je platná {days} dní, takže už není na co čekat!
+
+Zde je váš SLEVOVÝ KUPÓN: {voucher_num}
+
+Chcete-li získat slevu, zadejte tento kód v košíku.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop-project.org/)

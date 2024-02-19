@@ -1,0 +1,268 @@
+/**
+ * 2015-2020 Bonpresta
+ *
+ * Bonpresta Responsive banners
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the General Public License (GPL 2.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/GPL-2.0
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade the module to newer
+ * versions in the future.
+ *
+ *  @author    Bonpresta
+ *  @copyright 2015-2020 Bonpresta
+ *  @license   http://opensource.org/licenses/GPL-2.0 General Public License (GPL 2.0)
+ */
+
+#bonbannersmenu {
+    overflow: hidden;
+    padding: 15px;
+    display: flex;
+    flex: 0 0 31.3%;
+}
+
+#bonbannersmenu.boxed-banners a .banner-inner h4 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+#bonbannersmenu.boxed-banners a .banner-inner h3 {
+    font-size: 21px;
+}
+
+#bonbannersmenu.boxed-banners a .banner-inner p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+#bonbannersmenu.boxed-banners a .banner-inner span {
+    padding: 12px 20px;
+}
+
+@media (min-width: 1280px) {
+    #bonbannersmenu p {
+        font-size: calc(2px + (20 - 2) * ((100vw - 320px) / (1880 - 320)));
+    }
+}
+
+@media (max-width: 1280px) {
+    #bonbannersmenu p {
+        font-size: calc(10px + (20 - 10) * ((100vw - 320px) / (1880 - 320)));
+    }
+}
+
+#bonbannersmenu ul {
+    margin-bottom: 0;
+}
+
+#bonbannersmenu li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+#bonbannersmenu a {
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    color: #333333;
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#bonbannersmenu a img {
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+    transition: all 0.3s linear;
+}
+
+#bonbannersmenu a:hover img {
+    transform: scale(1.02);
+}
+
+#bonbannersmenu a .banner-inner {
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    transform: translate(0, -50%);
+    font-family: 'Inter', sans-serif;
+}
+#bonbannersmenu li:first-child a .banner-inner {
+    left: 0;
+    text-align: left;
+    padding-left: calc(10px + (30 - 10) * ((100vw - 320px) / (1880 - 320)));
+}
+
+#bonbannersmenu li:nth-child(2) a .banner-inner {
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: right;
+    padding-right: calc(10px + (30 - 10) * ((100vw - 320px) / (1880 - 320)));
+}
+#bonbannersmenu li:first-child a .banner-inner p {
+    max-width: 80%;
+    font-weight: 300;
+}
+#bonbannersmenu li:nth-child(2) a .banner-inner p {
+    max-width: 69%;
+}
+
+#bonbannersmenu a .banner-inner p {
+    color: #525252;
+
+}
+
+#bonbannersmenu a .banner-inner p strong {
+    font-weight: 500;
+}
+
+#bonbannersmenu a .banner-inner h4 {
+    font-weight: normal;
+    margin: 0 0 6px;
+    color: #525252;
+}
+@media (min-width: 992px) {
+    #bonbannersmenu a .banner-inner h4 {
+        font-size: calc(25px + (40 - 25) * ((100vw - 992px) / (1880 - 992)));
+        margin-bottom: calc(15px + (20 - 15) * ((100vw - 992px) / (1880 - 992)));
+    }
+}
+
+#bonbannersmenu a .banner-inner h3 {
+    font-size: 21px;
+    font-weight: 300;
+    margin: 0 0 7px;
+    color: #525252;
+}
+
+#bonbannersmenu a .banner-inner p>span {
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 22px;
+    font-size: 15px;
+    border: 1px solid #FFFFFF;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    color: white;
+    text-shadow: 2px 1px rgba(0, 0, 0, 0.1);
+    letter-spacing: 0.5px;
+}
+#bonbannersmenu a .banner-inner p>span:hover {
+    box-shadow: none;
+    text-shadow: none;
+    background-color: #fff;
+    color: #3a3a3a;
+}
+
+
+/* arrow-right button */
+#bonbannersmenu a .banner-inner p span.arrow-right {
+    position: relative;
+    height: 1px;
+    width: 21px;
+    background-color: #fff;
+    margin-left: 16px;
+    display: block;
+    transition: all 0.3s ease 0s;
+}
+
+#bonbannersmenu a .banner-inner p span.arrow-right:before,
+#bonbannersmenu a .banner-inner p span.arrow-right:after {
+    background-color: #fff;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 0;
+    right: -1px;
+    width: 8px;
+    transition: all 0.2s;
+}
+
+#bonbannersmenu a .banner-inner p span.arrow-right:before {
+    transform-origin: top right;
+    transform: rotate(40deg);
+}
+#bonbannersmenu a .banner-inner p span.arrow-right:after {
+    transform-origin: bottom right;
+    transform: rotate(-40deg);
+}
+
+#bonbannersmenu a .banner-inner p>span:hover span.arrow-right {
+    background-color: #3a3a3a;
+}
+#bonbannersmenu a .banner-inner p>span:hover span.arrow-right:before,
+#bonbannersmenu a .banner-inner p>span:hover span.arrow-right:after {
+    background-color: #3a3a3a;
+}
+/* END arrow-right button */
+
+#bonbannersmenu a span:hover {
+    background: #101010;
+    box-shadow: 0 0 4px 3px rgba(255, 255, 255, .3);
+}
+
+#bonbannersmenu a:before,
+#bonbannersmenu a:after {
+    pointer-events: none;
+}
+
+@media screen and (max-width: 1199px) {
+    #bonbannersmenu a .banner-inner h3 {
+        font-size: 16px;
+    }
+
+    #bonbannersmenu a .banner-inner {
+        padding-left: 25px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #bonbannersmenu a .banner-inner h3 {
+        font-size: 19px;
+    }
+
+    #bonbannersmenu a .banner-inner {
+        padding-left: 20px;
+    }
+
+    #bonbannersmenu .bonbannersmanu-item:first-child {
+        float: left;
+        width: 100% !important;
+    }
+
+    #bonbannersmenu .bonbannersmanu-item:first-child h3 {
+        font-size: 43px;
+    }
+
+    #bonbannersmenu .bonbannersmanu-item:first-child h4 {
+        font-size: 51px;
+    }
+
+    #bonbannersmenu .bonbannersmanu-item:first-child p {
+        font-size: 19px;
+    }
+
+    #bonbannersmenu .bonbannersmanu-item:first-child .banner-inner {
+        padding-left: 110px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #bonbannersmenu {
+        display: none;
+    }
+}

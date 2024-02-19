@@ -1,0 +1,23 @@
+ 
+
+{shop_url}
+
+Dobrý den {firstname} {lastname},
+
+Váš nákupní košík v obchodě {shop_name}
+
+Děkujeme za vaši návštěvu. Zdá se však, že jste nákup nedokončili.
+
+Váš košík byl uložen, ke své objednávce se můžete vrátit v našem obchodě: {shop_url}
+
+S potěšením vám můžeme poskytnout slevu {amount}% z vaší další objednávky! Tato nabídka je platná {days} dní, takže už není na co čekat!
+
+Váš slevový kupón do obchodu {shop_name}
+
+Zde je váš SLEVOVÝ KUPÓN: {voucher_num}
+
+Chcete-li získat slevu, zadejte tento kód v košíku.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop-project.org/)

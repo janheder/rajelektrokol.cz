@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ps_faviconnotificationbo</name>
+    <displayName><![CDATA[Upozorněn&iacute; na objedn&aacute;vku favikonem]]></displayName>
+    <version><![CDATA[2.1.3]]></version>
+    <description><![CDATA[Buďte informov&aacute;ni o každ&eacute; nov&eacute; objedn&aacute;vce, klientovi nebo zpr&aacute;vě př&iacute;mo na kartě prohl&iacute;žeče va&scaron;&iacute; administrace.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[administration]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>

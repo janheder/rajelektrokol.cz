@@ -1,0 +1,229 @@
+#boninfoban {
+    position: relative;
+}
+
+#boninfoban .img-responsive {
+    transition: all 0.3s linear;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#boninfoban .new-slider {
+    position: relative;
+    overflow: hidden;
+}
+
+#boninfoban .img-responsive:hover #category #products {
+    opacity: 0.5%;
+}
+
+#boninfoban .boninfoban-image {
+    position: relative;
+    padding: 0 5px;
+}
+
+#boninfoban .slick-list .slick-track .boninfoban-image {
+    padding: 0 10px;
+    max-height: 600px;
+}
+
+#boninfoban .boninfoban-image:hover .img-responsive {
+    transform: scale(1.02);
+}
+
+#boninfoban .boninfoban-image .img-responsive:focus {
+    outline: none;
+}
+
+#boninfoban .boninfoban-item .box-infoban,
+#boninfoban .boninfoban-item .box-ban {
+    width: max-content;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    max-width: 100%;
+}
+
+#boninfoban .boninfoban-item {
+    margin-bottom: inherit;
+    overflow: hidden;
+    position: relative;
+    max-height: max-content;
+}
+
+/*content settings*/
+#boninfoban .boninfoban-item .boninfoban-item-description h4 {
+    font-weight: 300;
+    margin-bottom: 7px;;
+    color: #fff;
+}
+#boninfoban .boninfoban-item .boninfoban-item-description h3 {
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+    padding: 0 5px;
+    text-transform: capitalize;
+}
+#boninfoban .boninfoban-item .boninfoban-item-description p {
+    font-weight: 300;
+    color: #fff;
+}
+
+/*slider settings*/
+
+#boninfoban .vertical-dots {
+    right: 15px;
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(50%);
+}
+
+#boninfoban .vertical-dots li {
+    margin-bottom: 7px;
+}
+
+#boninfoban .vertical-dots li.slick-active button {
+    background-position: left bottom;
+    transition: all 0.2s ease-in;
+}
+
+#boninfoban .vertical-dots li button {
+    background: linear-gradient(to right, rgb(58, 58, 58) 50%, rgba(58, 58, 58, 0.4) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    font-size: 0;
+    padding: 0;
+    width: 5px;
+    height: 30px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+}
+
+#boninfoban .vertical-dots li button:focus {
+    outline: none;
+}
+
+#boninfoban .boninfoban-video-link {
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    z-index: 2;
+    cursor: pointer;
+}
+
+#boninfoban .boninfoban-title {
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #dedede;
+}
+
+#boninfoban .boninfoban-video-link {
+    background: url('../img/play.png');
+    background-size: contain;
+    transition: all 0.3s ease;
+    width: 96px;
+    height: 96px;
+    transition: all 0.3s ease;
+    opacity: 0.7;
+}
+
+#boninfoban .boninfoban-cover-img:hover .boninfoban-video-link {
+    opacity: 1;
+}
+
+#boninfoban .modal-dialog {
+    max-width: 1200px;
+}
+
+#boninfoban .modal-content {
+    background: transparent;
+    border: none;
+}
+
+#boninfoban #video-element {
+    width: 100%;
+}
+
+#boninfoban .boninfoban-cover-img::before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+#boninfoban .box-video {
+    margin-top: 40%;
+}
+@media screen and (min-width: 1881px) {
+    #boninfoban .boninfoban-item .boninfoban-item-description h3 {
+        font-size: 29px;
+    }
+    #boninfoban .boninfoban-item .boninfoban-item-description h4 {
+        font-size: 19px;
+    }
+    #boninfoban .boninfoban-item .boninfoban-item-description p {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 1880px) {
+    #boninfoban .boninfoban-item .boninfoban-item-description h3 {
+        font-size: calc(15px + (29 - 15) * ((100vw - 768px) / (1880 - 768)));
+    }
+    #boninfoban .boninfoban-item .boninfoban-item-description h4 {
+        font-size: calc(14px + (19 - 14) * ((100vw - 768px) / (1880 - 768)));
+    }
+    #boninfoban .boninfoban-item .boninfoban-item-description p {
+        font-size: calc(12px + (15 - 12) * ((100vw - 768px) / (1880 - 768)));
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+
+    /*content settings*/
+    #boninfoban .boninfoban-item .boninfoban-item-description h4 {
+        font-size: 1.4vw;
+    }
+
+    #boninfoban .boninfoban-item .boninfoban-item-description p {
+        font-size: 1.2vw;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    /*content settings*/
+    #boninfoban .boninfoban-item .boninfoban-item-description h4 {
+        font-size: 1.4vw;
+        margin-bottom: .2rem;
+    }
+
+    #boninfoban .boninfoban-item .boninfoban-item-description h3 {
+        margin-bottom: .2rem;
+    }
+
+    #boninfoban .boninfoban-item .boninfoban-item-description p {
+        font-size: 1.2vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #boninfoban {
+        display: none;
+    }
+}

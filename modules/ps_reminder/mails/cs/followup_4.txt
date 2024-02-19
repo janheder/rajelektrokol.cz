@@ -1,0 +1,21 @@
+ 
+
+{shop_url}
+
+Dobrý den {firstname} {lastname},
+
+Váš košík v obchodě {shop_name}
+
+Gratulujeme, jste jedním z našich nejlepších zákazníků! Zdá se však, že jste již {days_threshold} dní nevytvořili žádnou objednávku.
+
+Váš nákupní košík byl uložen, můžete se k němu kdykoliv vrátit při návštěvě našeho eshopu: {shop_url}
+
+S potěšením vám můžeme poskytnout slevu {amount}% z vaší další objednávky! Tato nabídka je platná {days} dní, takže už není na co čekat!
+
+Zde je váš SLEVOVÝ KUPÓN: {voucher_num}
+
+Chcete-li získat slevu, zadejte tento kód v košíku.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop-project.org/)

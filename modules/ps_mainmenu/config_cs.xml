@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ps_mainmenu</name>
+    <displayName><![CDATA[Hlavn&iacute; nab&iacute;dka]]></displayName>
+    <version><![CDATA[2.3.2]]></version>
+    <description><![CDATA[Usnadnějte n&aacute;v&scaron;těvn&iacute;kům proch&aacute;zen&iacute; va&scaron;eho obchodu. Vyberte vhodn&eacute; odkazy a vytvořte z nich menu.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>

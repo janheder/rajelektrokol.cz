@@ -1,0 +1,11 @@
+<style type="text/css">
+    .fsch-home-block {
+        text-align: center;
+        padding: 3.125rem;
+        margin-bottom: 1.5rem;
+    }
+</style>
+<div class="card card-block fsch-home-block">
+    <h3>{title}</h3>
+    {content}
+</div>

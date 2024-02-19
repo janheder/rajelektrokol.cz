@@ -1,0 +1,49 @@
+.bootstrap .bobonreassurance > tbody  tr.ui-sortable-helper td {
+    color:#fff !important;
+    right: 0!important;
+    background-color:#00aff0 !important;
+    -moz-transform:translate(5px, 10px);
+    -ms-transform:translate(5px, 10px);
+    -webkit-transform:translate(5px, 10px);
+    transform:translate(5px, 10px)
+}
+
+
+.img-ban {
+    width: 150px;
+    height: auto;
+}
+
+.bootstrap .form-group.bon_modules_icons .fixed-width-xl {
+    width: 70px !important;
+}
+
+.bootstrap .form-group.bon_modules_icons_type .fixed-width-xl {
+    width: 263px !important;
+}
+
+.ui-sortable-helper {
+    display: table;
+}
+
+.bon_modules_icons .outicons,
+.icon-bonreassurance.outicons {
+    font-family: "fl-outicons"    !important;
+    font-size: 16px !important;
+}
+
+.bon_modules_icons .material_icons, .bon_modules_icons .material-icons,
+.icon-bonreassurance.material-icons {
+    font-size: 18px !important;
+    font-family: 'Material Icons' !important;
+}
+.bon_modules_icons .puppets, .bon_modules_icons .puppets,
+.icon-bonreassurance.puppets {
+    font-size: 15px !important;
+    font-family: 'fl-puppets' !important;
+}
+.bon_modules_icons .thin, .bon_modules_icons .thin,
+.icon-bonreassurance.thin {
+    font-size: 22px !important;
+    font-family: 'Thin Regular' !important;
+}

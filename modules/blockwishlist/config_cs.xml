@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>blockwishlist</name>
+    <displayName><![CDATA[Seznam př&aacute;n&iacute;]]></displayName>
+    <version><![CDATA[2.1.2]]></version>
+    <description><![CDATA[Umožněte sv&yacute;m z&aacute;kazn&iacute;kům vytv&aacute;řet seznamy př&aacute;n&iacute;, aby si mohli uložit sv&eacute; obl&iacute;ben&eacute; produkty na později.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>

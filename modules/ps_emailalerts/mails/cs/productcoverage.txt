@@ -1,0 +1,13 @@
+ 
+
+{shop_url}
+
+Dobrý den,
+
+Vaše pokrytí zásob je nyní nižší než stanovené minimum: {warning_coverage}
+
+Aktuální skladová zásoba: {current_coverage}
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop-project.org/)

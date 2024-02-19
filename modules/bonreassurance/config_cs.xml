@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>bonreassurance</name>
+    <displayName><![CDATA[Customer Reassurance With Icons]]></displayName>
+    <version><![CDATA[1.0.0]]></version>
+    <description><![CDATA[Display html content with icons and slider for your customers]]></description>
+    <author><![CDATA[Bonpresta]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[This module  Uninstall]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>

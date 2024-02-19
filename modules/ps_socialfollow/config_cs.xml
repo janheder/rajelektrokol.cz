@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ps_socialfollow</name>
+    <displayName><![CDATA[Odkazy pro sledov&aacute;n&iacute; na soci&aacute;ln&iacute;ch s&iacute;t&iacute;ch]]></displayName>
+    <version><![CDATA[2.3.0]]></version>
+    <description><![CDATA[Facebook, Twitter? Dejte lidem vědět, kde v&aacute;s můžou sledovat a roz&scaron;iřte si tak okruh z&aacute;kazn&iacute;ků.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[advertising_marketing]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>

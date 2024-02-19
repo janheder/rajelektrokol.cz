@@ -1,0 +1,97 @@
+.productcountdown {
+    display: inline-block;
+    text-align: center;
+}
+
+.product-page-right .productcountdown {
+    padding: 15px 0 20px;
+}
+
+.custom-miniatures .product-miniature .productcountdown {
+    top: 67%;
+}
+.product-miniature .productcountdown {
+    position: absolute;
+    top: 86%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    transition: all 0.7s ease;
+    z-index: 2;
+}
+
+.productcountdown>div>span {
+    margin-right: 8px;
+    display: inline-block;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    background: rgba(255, 255, 255, 0.82);
+    color: #777777;
+    font-size: 9px;
+
+}
+
+.productcountdown>div>span:last-child {
+    margin: 0;
+}
+
+.productcountdown>div>span>span {
+    display: block;
+}
+
+.productcountdown>div>span>span:first-child {
+    color: #3a3a3a;
+    font-weight: normal;
+    font-size: 13px;
+    margin-bottom: -3px;
+}
+
+.productcountdown h3 {
+    color: #f44848;
+}
+
+.lang-ru .productcountdown>div>span {
+    font-size: 9px;
+    margin-right: 4px;
+    padding: 3px 6px;
+}
+
+@media screen and (min-width: 991px) and (max-width: 1280px) {
+    .custom-miniatures .product-miniature .productcountdown {
+        top: 71%;
+        bottom: auto;
+    }
+    .product-miniature .productcountdown {
+        top: 80%;
+    }
+    .lang-ru .productcountdown>div>span {
+        font-size: 9px;
+    }
+    .lang-ru .productcountdown>div>span {
+        padding: 5px 7px;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+    .product-miniature .productcountdown {
+        bottom: 0;
+        top: auto;
+    }
+    #category.lang-ru .productcountdown>div>span {
+        padding: 3px 6px;
+        font-size: 8px;
+    }
+}
+@media (max-width: 990px) {
+    .product-miniature .productcountdown {
+        top: 75%;
+    }
+    .custom-miniatures .product-miniature .productcountdown {
+        top: 71%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .thumbnail-container-images .productcountdown {
+        display: none;
+    }
+}

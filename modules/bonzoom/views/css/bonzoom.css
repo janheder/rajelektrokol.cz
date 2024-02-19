@@ -1,0 +1,33 @@
+fieldset{
+	margin-top:10px;
+}
+
+.fieldset-credits, .fieldset-donate {
+  text-align: center;
+}
+
+.fieldset-credits p:first-child, .fieldset-donate  p:first-child{
+	margin-top: 0;
+}
+
+
+#pb-right-column #image-block img {
+    border: 1px solid #cdcdcd;
+    height: auto;
+    max-width: 100%;
+    overflow: hidden;
+}
+.zoomWindowContainer .zoomWindow{
+	margin-left: 22px!important;
+	margin-top: -6px!important;
+}
+
+.zoomContainer {
+    margin-top: 6px;
+    margin-left: -22px;
+    z-index: 2;
+}
+
+.zoomContainer .zoomWindowContainer div {
+  background-color: #fff!important;
+}

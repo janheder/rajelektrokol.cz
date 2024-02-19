@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ps_facetedsearch</name>
+    <displayName><![CDATA[Fasetov&aacute; navigace]]></displayName>
+    <version><![CDATA[3.12.1]]></version>
+    <description><![CDATA[Umožněte z&aacute;kazn&iacute;kům filtrovat katalog zbož&iacute;, aby si l&eacute;pe udělali přehled o va&scaron;ich kategori&iacute;ch. Bude se jim obchod l&eacute;pe proch&aacute;zet.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>

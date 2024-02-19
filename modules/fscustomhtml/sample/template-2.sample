@@ -1,0 +1,13 @@
+<style type="text/css">
+    .fsch-column-block {
+        margin-bottom: 1.5625rem;
+        padding: 1.25rem;
+    }
+    .fsch-column-block p:last-child {
+        margin-bottom: 0;
+    }
+</style>
+<div class="card card-block fsch-column-block">
+    <h3 class="h3">{title}</h3>
+    {content}
+</div>

@@ -1,0 +1,249 @@
+#bonfaq {
+  padding: 0 10px;
+}
+#bonfaq .panel {
+  /*box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);*/
+  padding-bottom: 0;
+  border-radius: 2px;
+  /*overflow: hidden;*/
+  background-color: #fff;
+  margin-bottom: 25px;
+}
+
+#bonfaq .panel-collapse {
+  border: 1px solid #f6f6f6;
+  box-shadow: 0px 9px 18px rgba(85, 85, 85, 0.05);
+}
+
+#bonfaq .panel:last-child {
+  margin-bottom: 50px;
+}
+
+.bonfaq-header-content-quotes-down,
+.bonfaq-header-content-quotes-up {
+  width: 83px;
+  height: 45px;
+  background: url(../img/quotes.png) 50% 50% no-repeat;
+}
+.account-list #lnk_faq .link-item {
+  padding-left: 0!important;
+  transition: all .3s ease;
+}
+
+.account-list #lnk_faq .link-item i {
+  display: none;
+}
+
+
+#bonfaq .panel a[href^="#"],
+#bonfaq .panel a[href^="#"]:hover,
+#bonfaq .panel a[href^="#"]:focus {
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#bonfaq .page-heading {
+  font-size: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  margin-bottom: 90px;
+}
+
+#bonfaq .bonfaq-header-content {
+  position: relative;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 140px;
+}
+
+#bonfaq .bonfaq-header-content h4 {
+
+  color: #333333;
+  font-size: 19px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+
+#bonfaq .bonfaq-header-content p {
+  color: #5c5c5c;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  margin-bottom: 0;
+}
+
+#bonfaq .bonfaq-header-content .bonfaq-header-content-box {
+  text-align: center;
+  width: 65%;
+  margin: 0 auto;
+  letter-spacing: 0.75px;
+  line-height: 2;
+}
+
+#bonfaq .bonfaq-header-content .bonfaq-header-content-quotes-up {
+  position: absolute;
+  top: -38px;
+  left: 65px;
+  transform: rotate(180deg);
+}
+
+#bonfaq .bonfaq-header-content .bonfaq-header-content-quotes-down {
+  position: absolute;
+  right: 0;
+  bottom: -33px;
+  right: 65px;
+}
+
+#bonfaq .bonfaq-header-content .bonfaq-header-content-quotes-up img,
+#bonfaq .bonfaq-header-content .bonfaq-header-content-quotes-down img {
+  height: 30px;
+}
+
+#bonfaq .panel .panel-heading {
+  background-color: #f6f6f6;
+  padding: 0 16px;
+  line-height: 48px;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+#bonfaq .panel .panel-heading h2 {
+  margin: 0;
+  padding: 14px 35px 14px 0;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-transform: none;
+  font-weight: normal;
+  position: relative;
+}
+
+#bonfaq .panel .panel-heading h2:after {
+  position: absolute;
+  right: 2px;
+  content: "\E803";
+  font-size: 31px;
+  font-family: "Mercury";
+  font-weight: 400;
+  font-style: normal;
+  font-size: inherit;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  transform: rotate(180deg);
+}
+
+#bonfaq .panel .panel-heading h2:hover:after, #bonfaq .panel .panel-heading h2:hover a {
+  color: #FC5B16;
+}
+
+#bonfaq .panel .panel-heading h2 a {
+  font-size: 15px;
+  pointer-events: none;
+}
+#bonfaq .panel .panel-heading h2 a:hover {
+  color: #FC5B16;
+}
+
+#bonfaq .panel .panel-heading:hover,
+#bonfaq .panel .panel-heading:focus {
+  cursor: pointer;
+}
+
+#bonfaq .panel .panel-heading.collapsed h2:after {
+  transform: rotate(0deg);
+}
+
+#bonfaq .panel .panel-body {
+  background-color: #fff;
+  border-top: 1px solid #f1f1f0;
+  border-radius: 2px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  margin-top: 0;
+}
+
+#bonfaq .panel .panel-body p {
+  margin: 0 0 16px;
+  padding: 14px 14px 14px 16px;
+}
+
+#bonfaq .panel .panel-body p:last-of-type {
+  margin: 0;
+}
+
+#block_myaccount_infos #lnk_faq {
+  color: #f1f1f1;
+  font-size: 13px;
+  position: relative;
+  cursor: pointer;
+  padding-left: 0;
+}
+
+/*#block_myaccount_infos #lnk_faq:before {*/
+/*  position: absolute;*/
+/*  content: "";*/
+/*  width: 100%;*/
+/*  height: 1px;*/
+/*  left: 0;*/
+/*  bottom: -10px;*/
+/*  transition: all .3s linear;*/
+/*  background: #fff;*/
+/*  opacity: 0;*/
+/*}*/
+
+
+
+/*#block_myaccount_infos #lnk_faq:hover:before {*/
+/*  bottom: -2px;*/
+/*  opacity: 1;*/
+/*}*/
+
+@media (max-width:720px) {
+
+  #bonfaq .bonfaq-header-content .bonfaq-header-content-quotes-up,
+  #bonfaq .bonfaq-header-content .bonfaq-header-content-quotes-down {
+    display: none;
+  }
+
+  #bonfaq .bonfaq-header-content .bonfaq-header-content-box {
+    width: auto;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  #bonfaq .bonfaq-header-content {
+    margin-bottom: 40px;
+  }
+
+  #bonfaq .page-heading {
+    margin-bottom: 50px;
+  }
+
+  #bonfaq .bonfaq-header-content p {
+    font-size: 15px;
+  }
+
+  #bonfaq .bonfaq-header-content h4 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width:575px) {
+  #bonfaq .panel .panel-heading h2:after {
+    top: 27px;
+  }
+
+  #bonfaq .panel:last-child,
+  #bonfaq .panel {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width:720px) and (max-width:1173px) {
+
+  #bonfaq .bonfaq-header-content .bonfaq-header-content-quotes-up img,
+  #bonfaq .bonfaq-header-content .bonfaq-header-content-quotes-down img {
+    height: 25px;
+  }
+}

@@ -1,0 +1,111 @@
+#facebook-menu-open {
+    left: 0;
+    top: 245px;
+    background: #46629e;
+    width: 30px;
+    max-width: 30px;
+    position: fixed;
+    height: 30px;
+    max-height: 30px;
+    transition: all 0.3s linear;
+    z-index: 1003;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .12);
+    border-radius: 0 6px 6px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#facebook-menu-open i {
+    color: #fff;
+    font-size: 16px;
+    padding-right: 3px;
+}
+
+#facebook-menu-open:focus {
+    outline: none;
+}
+
+.facebook-custom-menu {
+    width: 320px;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    left: -320px;
+    top: 245px;
+    height: 520px;
+    z-index: 1003;
+    background: #fff;
+    transition: all 0.3s linear;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .16);
+    overflow: scroll;
+}
+
+#checkout-personal-information-step .bon-facebooklogin-button {
+    margin-left: 1rem!important;
+}
+
+.bon-facebook-column {
+    margin-bottom: 20px;
+}
+
+.facebook-custom-menu::-webkit-scrollbar {
+    display: none;
+}
+
+#facebook-menu-open.active {
+    left: 320px;
+}
+
+.facebook-custom-menu.active {
+    left: 0;
+}
+
+.facebook-custom-menu .title_block {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #dedede;
+}
+
+.facebook-custom-menu .facebook-custom-menu-wrapper {
+    padding: 17px 20px;
+    margin-bottom: 20px;
+    height: 500px;
+    overflow: hidden;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    #category .bon-facebook-column {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    #facebook-menu-open,
+    .facebook-custom-menu {
+        top: 255px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    #facebook-menu-open,
+    .facebook-custom-menu {
+        top: 275px;
+    }
+}
+
+@media screen and (max-width: 368px) {
+    #facebook-menu-open,
+    .facebook-custom-menu {
+        top: 295px;
+    }
+}

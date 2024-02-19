@@ -1,0 +1,217 @@
+.fancybox__thumbs .carousel__slide .fancybox__thumb::after {
+  border-width: 2px !important;
+}
+
+.bonportfolio-main .bonportfolio-items:not(.active) {
+  display: none;
+}
+
+.bonportfolio-main .bonportfolio-items:last-child {
+  margin-bottom: 50px;
+}
+#bonportfolio {
+  max-width: 100%;
+  overflow: hidden;
+}
+#bonportfolio .bonportfolio-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #dedede;
+}
+
+#bonportfolio .bonportfolio-item-title {
+  margin: 0 15px;
+  position: relative;
+  cursor: pointer;
+}
+
+#bonportfolio .bonportfolio-item-title h3 {
+  font-size: 1rem;
+  padding: 0 0 5px;
+  position: relative;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+}
+
+#bonportfolio .bonportfolio-item-title.active {
+  color: #FC5B16;
+}
+
+#bonportfolio .bonportfolio-item-title.active h3:after {
+  background: #FC5B16;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  height: 3px;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  width: 100%;
+  transition: all .3s linear;
+}
+
+#bonportfolio .bonportfolio-item-title h3:after {
+  background: #FC5B16;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  height: 3px;
+  bottom: -8px;
+
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  transition: all .3s linear;
+}
+
+#bonportfolio .bonportfolio-item-title:hover h3 {
+  color: #FC5B16;
+}
+
+.bonportfolio-item {
+  max-width: calc((100% - 60px) / 3);
+  padding: 0 0 20px 0;
+}
+
+.bonportfolio-items {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+}
+
+
+/* description */
+.bonportfolio-main .bonportfolio-item-description {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: #3a3a3a;
+  cursor: pointer;
+  transition: all .3s linear;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.bonportfolio-main .bonportfolio-item-description p,
+.bonportfolio-main .bonportfolio-item-description h3 {
+  color: #fff;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.bonportfolio-main .bonportfolio-item:hover .bonportfolio-item-description {
+  opacity: 0.8;
+
+}
+
+.bonportfolio-main .bonportfolio-item a {
+  display: block;
+  position: relative;
+}
+
+.bonportfolio-item hr {
+  background-color: #fff;
+  width: 150px;
+}
+
+/*type video*/
+
+#bonportfolio .embed-responsive .embed-responsive-item,
+#bonportfolio .embed-responsive embed,
+#bonportfolio .embed-responsive iframe,
+#bonportfolio .embed-responsive object,
+#bonportfolio .embed-responsive video,
+#bonportfolio .bonportfolio-image:after {
+  position: relative;
+  height: auto;
+}
+
+#bonportfolio .bonportfolio-cover-img {
+  position: relative;
+}
+
+#bonportfolio .bonportfolio-cover-img::before {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+#bonportfolio .bonportfolio-video-link {
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+  z-index: 2;
+  cursor: pointer;
+}
+
+#bonportfolio .bonportfolio-video-link {
+  background: url('../img/play.png');
+  background-size: contain;
+  transition: all 0.3s ease;
+  width: 130px;
+  height: 130px;
+  transition: all 0.3s ease;
+  opacity: 0.7;
+}
+
+#bonportfolio .bonportfolio-cover-img:hover .bonportfolio-video-link {
+  opacity: 1;
+}
+
+#bonportfolio .modal-dialog {
+  max-width: 1200px;
+}
+
+#bonportfolio .modal-content {
+  background: transparent;
+  border: none;
+}
+
+#bonportfolio #video-element {
+  width: 100%;
+}
+
+#bonportfolio .title-block {
+  text-align: center;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 1278px) {
+  .bonportfolio-item {
+    max-width: calc((100%) / 2 - 20px);
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #bonportfolio .bonportfolio-item-description {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #bonportfolio .bonportfolio-item-title h3 {
+    font-size: 15px;
+  }
+}

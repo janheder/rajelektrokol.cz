@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>boninstagram</name>
+    <displayName><![CDATA[Instagram Gallery Feed Photos &amp; Videos User]]></displayName>
+    <version><![CDATA[6.5.0]]></version>
+    <description><![CDATA[Display instagram carousel feed photos and videos]]></description>
+    <author><![CDATA[Bonpresta]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>

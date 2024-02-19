@@ -1,0 +1,103 @@
+ #product-button .next-product-button,
+ #product-button .prev-product-button {
+   z-index: 3;
+   display: flex;
+   align-items: center;
+ }
+
+ #product-button .next-product-button {
+   position: relative;
+ }
+
+ #product-button .next-product-button .product-button-hover,
+ #product-button .prev-product-button .product-button-hover {
+   padding: 10px;
+   text-align: center;
+   position: absolute;
+   top: 35px;
+     right: 0;
+   border: 1px solid #ccc;
+   visibility: hidden;
+   transform: translateY(100px);
+   transition: all 0.3s linear;
+   opacity: 0;
+   box-shadow: 0 0 13px rgba(0, 0, 0, 0.17);
+   background: #fff;
+ }
+
+ #product-button .next-product-button .product-button-hover .product-name,
+ #product-button .prev-product-button .product-button-hover .product-name {
+   font-size: 13px;
+   transition: all 0.3s linear;
+ }
+
+ #product-button .next-product-button .product-button-hover .product-name:hover,
+ #product-button .prev-product-button .product-button-hover .product-name:hover {
+   color: #FC5B16;
+ }
+
+ #product-button .next-product-button .product-button-hover img,
+ #product-button .prev-product-button .product-button-hover img {
+   max-width: 100%;
+   height: auto;
+ }
+
+ #product-button .next-product-button:hover .product-button-hover,
+ #product-button .prev-product-button:hover .product-button-hover {
+  visibility: visible;
+  transform: translateY(0);
+  opacity: 1;
+ }
+
+ #product-button .next-product-button .product-button-hover {
+   right: -3px;
+ }
+
+ .breadcrumb .container {
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .breadcrumb .container::after {
+   display: none
+ }
+
+ #product-button {
+   display: flex;
+   margin-right: -3px;
+   position: relative;
+ }
+
+ #product-button .btn_prev span,
+ #product-button .btn_next span {
+   color: #b2b2b2;
+   font-size: 12px;
+ }
+
+ #product-button .next-product-button {
+   margin-right: 20px;
+ }
+
+
+ #product-button span .material-icons {
+   font-size: 14px;
+   margin-bottom: 1px;
+ }
+
+ #product-button .product-name {
+   margin-top: 9px;
+   margin-bottom: 0;
+ }
+
+ @media screen and (max-width: 1500px) {
+
+   #product-button .prev-product-button .product-button-hover,
+   #product-button .next-product-button .product-button-hover {
+     right: 0;
+   }
+
+   #product-button .next-product-button {
+     position: unset;
+   }
+
+ }

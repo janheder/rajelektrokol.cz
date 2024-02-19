@@ -139,7 +139,7 @@
                                 <div class="bon-tooltip boncompare-hook-wrapper compare-button" data-id-compare="{$product.id}">
                                     {hook h="displayBonCompare"}
                                 </div>
-                                <button class="btn-primary white ajax_add_to_cart_button add-to-cart" data-button-action="add-to-cart" type="submit" {if !$product.add_to_cart_url} disabled {/if}>{l s='Add to cart' d='Shop.Theme.Actions'}</button>
+                                <a class="btn-primary" href="{$product.url}">Detail produktu</a>
                                 <div class="bon-tooltip bonwishlist-hook-wrapper" data-id-product="{$product.id}">
                                     {hook h="displayBonWishlist"}
                                 </div>

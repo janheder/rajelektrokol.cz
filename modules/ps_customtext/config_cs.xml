@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ps_customtext</name>
+    <displayName><![CDATA[Vlastn&iacute; blok textu]]></displayName>
+    <version><![CDATA[4.2.1]]></version>
+    <description><![CDATA[Poskytněte sv&yacute;m z&aacute;kazn&iacute;kům v&iacute;ce informac&iacute; pomoc&iacute; vlastn&iacute;ch bloků textu na homepage.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>

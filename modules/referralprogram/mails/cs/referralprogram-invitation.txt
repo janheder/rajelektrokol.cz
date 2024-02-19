@@ -1,0 +1,19 @@
+ 
+
+{shop_url}
+
+{firstname_friend} {lastname_friend}, Připojte se k nám!
+
+Váš přítel {firstname} {lastname} vás chce pozvat do obchodu [{shop_name}]({shop_url})!
+
+Jsme rádi, že vám můžeme nabídnout kupón v hodnotě {discount}, který můžete použít při další objednávce. Získejte doporučení a získáte slevový kupón v hodnotě {discount}!
+
+[Registrace je velmi jednoduchá, klikněte zde!]({link})
+
+Při registraci nezapomeňte uvést e-mailovou adresu přítele, který vás doporučil: {email}.
+
+S pozdravem,
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop-project.org/)

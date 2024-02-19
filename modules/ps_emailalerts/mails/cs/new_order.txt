@@ -1,0 +1,43 @@
+ 
+
+{shop_url}
+
+Blahopřejeme!
+
+V obchodě {shop_name} byla zadána nová objednávka zákazníkem: {firstname} {lastname} ({email})
+
+Detaily objednávky
+
+Objednávka: {order_name} Vytvořená {date}
+
+Platba: {payment}
+
+Kód	Produkt	Jedn. cena	Počet	Celková cena   {items}
+Produkty	{total_products}
+Sleva	{total_discounts}
+Dárkové balení	{total_wrapping}
+Doručení	{total_shipping}
+DPH celkem	{total_tax_paid}
+Celkem k úhradě	{total_paid}
+
+Doručení
+
+Dopravce: {carrier}
+
+Platba: {payment}
+
+Dodací adresa
+
+{delivery_block_html}
+
+Fakturační adresa
+
+{invoice_block_html}
+
+Zpráva od zákazníka:
+
+{message}
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop-project.org/)

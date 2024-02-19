@@ -1,0 +1,53 @@
+#bon-login-image img {
+	margin-top: -6px;
+	margin-left: 0;
+}
+
+.bon-facebooklogin-button.btn,
+.bon-googlelogin-button.btn {
+	padding: 7px 14px;
+	text-transform: capitalize;
+	font-weight: 400;
+	white-space: inherit;
+	transition: all .3s linear;
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+	color: #fff;
+	border-radius: 4px;
+}
+.bon-facebooklogin-button.btn:before {
+
+}
+.bon-facebooklogin-button.btn:hover {
+	background: #1853f2;
+}
+.bon-googlelogin-button.btn:hover {
+	background: #bf2222;
+}
+.bon-facebooklogin-button.btn{
+	background: #1877F2;
+}
+
+.bon-googlelogin-button.btn{
+	background: #DA2E2E;
+}
+
+#login-form .bon-googlelogin-button.btn, #checkout-personal-information-step .bon-googlelogin-button.btn{
+	display: none;
+}
+
+#login-form .form-footer .bon-facebooklogin-button {
+	width: unset;
+	margin: 0 0 0 15px;
+	font-size: 16px !important;
+	line-height: unset;
+}
+
+#checkout-personal-information-step .bon-facebooklogin-button {
+	font-size: 14px !important;
+	width: unset;
+}
+#checkout-personal-information-step .bon-facebooklogin-button:hover {
+	background: #1853f2;
+}

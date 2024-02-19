@@ -1,0 +1,323 @@
+.bon-newsletter {
+  display: none;
+  background-size: cover;
+  background-color: #fff;
+  position: absolute;
+  max-width: 1048px;
+  top: 50%;
+  right: 50%;
+  padding: 0;
+  left: 50%;
+  width: 90%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+body #bon_newsletter_email:-webkit-autofill,
+body #bon_newsletter_email:-webkit-autofill:hover,
+body #bon_newsletter_email:-webkit-autofill:focus {
+  background-color: transparent !important;
+  -webkit-box-shadow: 0 0 0 1000px transparent inset !important;
+  transition: background-color 50000s ease-in-out 0s !important;
+}
+.bon-newsletter .form-group {
+  margin-bottom: 15px;
+  /*display: flex;*/
+}
+
+
+.bon-newsletter .image-newsletter,
+.bon-newsletter .box-newsletter {
+  padding: 0;
+  text-align: center;
+}
+
+.bon-newsletter .image-newsletter {
+  flex: 0 0 44.6%;
+  max-width: 44.6%;
+  float: left;
+}
+
+.newsletter-content {
+  margin: 0 auto;
+}
+.bon-newsletter-coupon {
+  position: relative;
+  padding: 12px 16px;
+  max-width: 261px;
+  border: 1px dashed rgba(0, 0, 0, .125);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #F2F2F2;
+  border-radius: 4px;
+}
+.bon-newsletter-coupon p {
+  text-align: center;
+  margin-bottom: 0;
+  color: #fd450c;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.newsletter-content h2 {
+  line-height: 110%;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+
+.newsletter-content p b {
+  color: #FC5B16;
+}
+.newsletter-content p {
+  font-size: 16px;
+  line-height: 175%;
+  color: #3a3a3a;
+  font-weight: 600;
+  text-align: center;
+}
+
+.bon-newsletter .bon-newsletter-dont:hover {
+  color: #333 !important;
+}
+
+.bon-newsletter .box-newsletter .innerbox-newsletter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  width: 90%;
+  padding: 0 37px;
+}
+
+.bon-newsletter .bon-newsletter-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 32px;
+}
+.bon-newsletter .popup-close {
+  right: 10px;
+  top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bon-newsletter .popup-close::after {
+  font-size: 19px;
+  color: #fff;
+}
+.bon-newsletter .popup-close:hover::after {
+  color: #161616;
+}
+.bon-newsletter .bon-newsletter-content {
+  position: static;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-top-left-radius: 32px;
+  border-bottom-left-radius: 32px;
+  background: linear-gradient(257.01deg, rgba(255, 255, 255, 0.8) 5.07%, rgba(255, 255, 255, 0.64) 98.08%);
+  backdrop-filter: blur(2.5px);
+}
+.bon-newsletter-coupon p,
+.bon-newsletter .form-control {
+  font-size: 14px;
+}
+.bon-newsletter .bon-newsletter-content .innerbox-newsletter {
+  max-width: 100%;
+}
+
+.bon-newsletter .bon-newsletter-dont {
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #666666;
+  font-size: 13px;
+}
+
+.bon-newsletter-link {
+  display: block;
+}
+#bon_newsletter_email {
+  padding: 0 0 12px 0;
+  transition: all .3s ease;
+}
+#bon_newsletter_email:focus {
+  border-bottom-color: #fd450c;
+}
+.bon-newsletter .input-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+.bon-newsletter .bonnewsletter_send {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bon-newsletter .bon_newsletter_success,
+.bon_newsletter_errors {
+  max-width: 326px;
+  border-radius: 4px;
+}
+
+.bon-newsletter .image-newsletter img {
+  width: 100%;
+}
+.bon-newsletter .input-wrapper {
+  position: relative;
+}
+.bon-newsletter .form-control::placeholder {
+  text-align: left;
+  text-decoration: none;
+  color: #666666;
+}
+.bon-newsletter .form-control:focus-visible,
+.bon-newsletter .form-control:focus {
+  box-shadow: none;
+  text-shadow: none;
+}
+.bon-newsletter .form-control {
+  background: transparent;
+  border-bottom: 1px solid #666666;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  max-width: 326px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1881px) {
+  .bon-newsletter .form-control {
+    padding-right: 60px;
+  }
+  .bon-newsletter .bon-newsletter-content {
+    padding: 78px 40px;
+  }
+  .newsletter-content h2 {
+    font-size: 32px;
+  }
+  .bon-newsletter .bon-newsletter-dont {
+    position: relative;
+    top: 40px;
+  }
+}
+@media screen and (max-width: 1880px) {
+  .bon-newsletter .form-control {
+    padding-right: calc(30px + (50 - 30) * ((100vw - 320px) / (1880 - 320)));
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1880px) {
+  .bon-newsletter .bon-newsletter-content {
+    padding: calc(40px + (78 - 40) * ((100vw - 768px) / (1880 - 768))) calc(20px + (40 - 20) * ((100vw - 768px) / (1880 - 768)));
+  }
+  .newsletter-content h2 {
+    font-size: calc(20px + (32 - 20) * ((100vw - 768px) / (1880 - 768)));
+  }
+  .bon-newsletter .bon-newsletter-dont {
+    position: relative;
+    top: calc(15px + (40 - 15) * ((100vw - 768px) / (1880 - 768)));
+  }
+}
+@media screen and (max-width: 1024px) {
+  .bon-newsletter .popup-close {
+    right: 0;
+  }
+}
+@media (min-width: 768px) {
+  .bon-newsletter .bon-newsletter-content {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .bon-newsletter .popup-close {
+    width: 50px;
+    height: 50px;
+  }
+  .bon-newsletter-coupon {
+    margin: 0 auto 32px;
+  }
+  .newsletter-content h2 {
+    margin-bottom: 20px;
+  }
+  .newsletter-content p {
+    margin-bottom: 30px;
+  }
+  .bon-newsletter .input-wrapper {
+    margin-bottom: 32px;
+  }
+  .bon-newsletter .bonnewsletter_send {
+    margin: 0 auto 32px;
+  }
+  .bon-newsletter .bon_newsletter_success,
+  .bon_newsletter_errors {
+    margin: -22px auto 10px;
+  }
+}
+@media (max-width: 767px) {
+  .bon-newsletter .popup-close {
+    width: 25px;
+    height: 25px;
+    background: transparent;
+  }
+  .bon-newsletter .bon-newsletter-content {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .newsletter-content h2 {
+    font-size: calc(30px + (40 - 30) * ((100vw - 320px) / (767 - 320)));
+  }
+  .bon-newsletter .bon-newsletter-content {
+    padding: calc(40px + (78 - 40) * ((100vw - 768px) / (1880 - 768))) calc(20px + (40 - 20) * ((100vw - 768px) / (1880 - 768)));
+  }
+  .bon-newsletter .bon-newsletter-dont {
+    position: unset;
+  }
+  .bon-newsletter-coupon {
+    margin: 0 auto calc(14px + (32 - 14) * ((100vw - 320px) / (767 - 320)));
+  }
+  .newsletter-content h2 {
+    margin-bottom: calc(10px + (20 - 10) * ((100vw - 320px) / (767 - 320)));
+  }
+  .newsletter-content p {
+    margin-bottom: calc(13px + (30 - 13) * ((100vw - 320px) / (767 - 320)));
+  }
+  .bon-newsletter .input-wrapper {
+    margin-bottom: calc(14px + (32 - 14) * ((100vw - 320px) / (767 - 320)));
+  }
+  .bon-newsletter .bonnewsletter_send {
+    margin: 0 auto calc(14px + (32 - 14) * ((100vw - 320px) / (767 - 320)));
+  }
+  .bon-newsletter .bon_newsletter_success,
+  .bon_newsletter_errors {
+    margin: calc(-10px + (-22 - -10) * ((100vw - 320px) / (767 - 320))) auto 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .bon-newsletter .form-group {
+    margin-bottom: 20px;
+  }
+  .bon-newsletter {
+    width: 90%;
+  }
+}

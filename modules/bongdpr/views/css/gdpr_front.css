@@ -1,0 +1,228 @@
+.bongdpr {
+    display: none;
+    font-size: 14px;
+    color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 5004;
+    width: 100%;
+    padding: 7px 0;
+}
+
+.bongdpr.show {
+    display: block;
+}
+.bongdpr .bongdpr_box {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen  and (max-width : 480px) {
+    .bongdpr .bongdpr_box {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .bongdpr .bongdpr_box{
+        display: flex;
+        padding-left: 25px;
+    }
+}
+
+.bongdpr .bongdpr_box p {
+    font-size: 13px;
+    line-height: 22px;
+    margin: 0;
+    color: white;
+    float: left;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .bongdpr_style_1 .bongdpr-footer {
+        padding: 10px 0;
+        width: 100%;
+        float: none;
+    }
+    .bongdpr_style_1.bongdpr .bongdpr_box p {
+        float: none;
+        width: 100%;
+    }
+    .bongdpr_style_1.bongdpr {
+        padding-top: 15px;
+    }
+    .bongdpr_style_1.bongdpr .bongdpr_box {
+        display: block;
+        padding-right: 15px;
+        padding-left: 15px;
+        text-align: center;
+    }
+}
+.bongdpr-footer {
+    float: right;
+}
+
+body main .bongdpr .bongdpr-footer a, #header .bongdpr-footer a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #a7a7a7;
+    vertical-align: -1px;
+}
+
+body main .bongdpr .bongdpr-footer a:hover, #header .bongdpr-footer a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.bongdpr .bongdpr-footer .bongdpr-button {
+    background: none;
+    color: #fff;
+    display: inline-block;
+    margin-left: 15px;
+    padding: 0;
+    cursor: pointer;
+}
+#bongdpr .bongdpr-footer .bongdpr-button:hover span, #bongdpr .bongdpr-footer .bongdpr-button:hover i {
+    color: #a7a7a7;
+}
+.bongdpr .bongdpr-footer .bongdpr-button > span {
+    position: relative;
+    font-size: 12px;
+    text-transform: uppercase;
+    vertical-align: -1px;
+    transition: all .3s ease;
+}
+
+
+
+.bongdpr .bongdpr-button i {
+    font-size: 17px;
+    transition: all .3s ease;
+}
+
+/*CSS for Style 2*/
+
+.bongdpr_style_2.bongdpr_version_1_6 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.bongdpr_style_2.bongdpr {
+    width: 500px;
+    margin: 100px 0 20px 20px;
+}
+
+.bongdpr_style_2.bongdpr .bongdpr_box {
+    padding: 8px 15px 6px;
+    display: block;
+    overflow: hidden;
+}
+
+.bongdpr_style_2.bongdpr .bongdpr-footer {
+    text-align: right;
+    padding: 9px 0 0 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .bongdpr_style_2.bongdpr .bongdpr_box {
+        padding: 5px;
+    }
+
+    .bongdpr_style_2.bongdpr {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        padding: 7px 12px;
+    }
+    .bongdpr_style_2.bongdpr .bongdpr-footer {
+        float: none;
+        padding-top: 10px;
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .bongdpr_style_2.bongdpr {
+        width: 350px;
+    }
+}
+
+/*CSS for Style 3*/
+
+.bongdpr_style_3.bongdpr_version_1_6 .bongdpr .bongdpr_box {
+    padding: 5px 30px;
+}
+
+.bongdpr_style_3.bongdpr {
+    width: 450px;
+    margin: 20px 0 20px 20px;
+    border: 1px solid #beb0cc;
+    border-radius: 5px;
+}
+
+@media (max-width : 480px) {
+    .bongdpr_style_3.bongdpr {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .bongdpr_style_3.bongdpr{
+        display: flex;
+        padding-left: 10px;
+    }
+}
+
+.bongdpr_style_3.bongdpr .bongdpr_box {
+    padding: 16px 20px;
+    flex-direction: column;
+    text-align: left;
+}
+
+.bongdpr_version_1_6.bongdpr.bongdpr_style_3 .bongdpr_box {
+    padding: 0 30px;
+}
+
+.bongdpr_style_3.bongdpr .bongdpr-footer {
+    text-align: right;
+    padding: 9px 0 0 0;
+    display: flex;
+    justify-content: space-between
+}
+
+.bongdpr_style_3.bongdpr .bongdpr-footer a {
+    border: 1px solid #9754c1;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+}
+
+.bongdpr_style_3.bongdpr .bongdpr-footer a:hover {
+    background-color: #4a176b;
+    color: white;
+}
+
+.bongdpr_style_3.bongdpr .bongdpr-button {
+    border: 1px solid #9754c1;
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: #000;
+}
+
+.bongdpr_style_3.bongdpr .bongdpr-footer .bongdpr-button > span:after{
+    display: none;
+}
+
+.bongdpr_style_3.bongdpr .bongdpr-button:hover {
+    background-color: #4a176b;
+    color: white;
+}

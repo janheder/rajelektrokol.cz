@@ -1,0 +1,3 @@
+Customer name: {name}
+Phone number: {phone}
+Email: {bonemail}

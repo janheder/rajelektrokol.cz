@@ -1,0 +1,187 @@
+.boncategoruproduct .product-wrapper .product-image img {
+    max-width: 120px;
+}
+.boncategoruproduct .product-wrapper {
+    display: flex;
+    background: #F2F2F2;
+}
+.boncategoruproduct .boncategoruproduct-item p.h2 {
+    position: relative;
+    color: #1A1A1A;
+    font-family: 'Kanit';
+    font-weight: 500;
+    padding-left: 12px;
+}
+.boncategoruproduct .product-price-and-shipping,
+.boncategoruproduct .product-title {
+    text-align: left;
+    padding: 0;
+}
+.boncategoruproduct .swiper-button-next::after, .boncategoruproduct .swiper-button-prev::after {
+    color: #3a3a3a;
+}
+.boncategoruproduct .boncategoruproduct-item p.h2:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background-color: #FD370C;
+    border-radius: 4px;
+}
+.boncategoruproduct .product-price-and-shipping {
+    font-weight: 500;
+    line-height: 150%;
+    font-family: 'Kanit';
+    margin: 0;
+}
+.boncategoruproduct .h3.product-title a {
+    line-height: 150%;
+    font-family: 'Kanit';
+    color: #1A1A1A;
+    margin: 0;
+    font-weight: 500;
+}
+.boncategoruproduct .product-info {
+    width: 100%;
+    text-align: right;
+    padding-left: 10px;
+}
+.boncategoruproduct .view-product {
+    display: inline-block;
+    text-align: right;
+    position: relative;
+    color: #666666;
+    line-height: 150%;
+}
+.boncategoruproduct .view-product:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    transition: all .3s ease;
+    background-color: #666666;
+}
+.boncategoruproduct .view-product:hover:before {
+    width: 0;
+    left: auto;
+    right: 0;
+}
+
+@media screen and (min-width: 1881px) {
+    .boncategoruproduct .boncategoruproduct-item p.h2 {
+        margin-bottom: 44px;
+        font-size: 40px;
+    }
+    .boncategoruproduct .product-info {
+        margin-top: -11px;
+    }
+    .boncategoruproduct .view-product {
+        font-size: 14px;
+    }
+    .boncategoruproduct .h3.product-title a {
+        font-size: 24px;
+    }
+    .boncategoruproduct .regular-price {
+        font-size: 16px;
+    }
+    .boncategoruproduct .product-price-and-shipping {
+        font-size: 24px;
+    }
+    .boncategoruproduct .swiper-button-next::after, .boncategoruproduct .swiper-button-prev::after {
+        font-size: 19px;
+    }
+    .boncategoruproduct .product-wrapper .product-image img {
+        width: 120px;
+    }
+    .boncategoruproduct .product-wrapper {
+        padding: 22px 16px;
+    }
+    .boncategoruproduct .wrapper.block-content {
+        gap: 20px;
+    }
+    .boncategoruproduct .product-wrapper:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1880px) {
+    .boncategoruproduct .product-info {
+        margin-top: calc(-8px + (-11 - -8) * ((100vw - 768px) / (1880 - 768)));
+    }
+    .boncategoruproduct .product-wrapper:not(:last-child) {
+        margin-bottom: calc(5px + (20 - 5) * ((100vw - 768px) / (1880 - 768)));
+    }
+    .boncategoruproduct .wrapper.block-content {
+        gap: calc(5px + (20 - 5) * ((100vw - 768px) / (1880 - 768)));
+    }
+    .boncategoruproduct .view-product {
+        font-size: calc(10px + (14 - 10) * ((100vw - 768px) / (1880 - 768)));
+    }
+    .boncategoruproduct .h3.product-title a {
+        font-size: calc(12px + (24 - 12) * ((100vw - 768px) / (1880 - 768)));
+    }
+    .boncategoruproduct .regular-price {
+        font-size: calc(11px + (16 - 11) * ((100vw - 768px) / (1880 - 768)));
+    }
+    .boncategoruproduct .product-price-and-shipping {
+        font-size: calc(12px + (24 - 12) * ((100vw - 768px) / (1880 - 768)));
+    }
+    .boncategoruproduct .swiper-button-next::after, .boncategoruproduct .swiper-button-prev::after {
+        font-size: calc(11px + (19 - 11) * ((100vw - 768px) / (1880 - 768)));
+    }
+    .boncategoruproduct .product-wrapper .product-image img {
+        width: calc(50px + (120 - 50) * ((100vw - 768px) / (1880 - 768)));
+    }
+    .boncategoruproduct .product-wrapper {
+        padding: calc(5px + (22 - 5) * ((100vw - 768px) / (1880 - 768))) calc(5px + (16 - 5) * ((100vw - 768px) / (1880 - 768)));
+    }
+    .boncategoruproduct .boncategoruproduct-item p.h2 {
+        margin-bottom: calc(15px + (44 - 15) * ((100vw - 768px) / (1880 - 768)));
+        font-size: calc(15px + (40 - 15) * ((100vw - 768px) / (1880 - 768)));
+    }
+}
+@media screen and (min-width: 768px) {
+    .boncategoruproduct .wrapper.block-content {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .boncategoruproduct .product-info {
+        margin-top: calc(-8px + (-11 - -8) * ((100vw - 320px) / (767 - 320)));
+    }
+    .boncategoruproduct .product-wrapper:not(:last-child) {
+        margin-bottom: calc(5px + (20 - 5) * ((100vw - 320px) / (767 - 320)));
+    }
+    .boncategoruproduct .wrapper.block-content {
+        gap: calc(5px + (20 - 5) * ((100vw - 320px) / (767 - 320)));
+    }
+    .boncategoruproduct .view-product {
+        font-size: calc(10px + (14 - 10) * ((100vw - 320px) / (767 - 320)));
+    }
+    .boncategoruproduct .h3.product-title a {
+        font-size: calc(12px + (24 - 12) * ((100vw - 320px) / (767 - 320)));
+    }
+    .boncategoruproduct .regular-price {
+        font-size: calc(11px + (16 - 11) * ((100vw - 320px) / (767 - 320)));
+    }
+    .boncategoruproduct .product-price-and-shipping {
+        font-size: calc(12px + (24 - 12) * ((100vw - 320px) / (767 - 320)));
+    }
+    .boncategoruproduct .swiper-button-next::after, .boncategoruproduct .swiper-button-prev::after {
+        font-size: calc(11px + (19 - 11) * ((100vw - 320px) / (767 - 320)));
+    }
+    .boncategoruproduct .product-wrapper .product-image img {
+        width: calc(50px + (120 - 50) * ((100vw - 320px) / (767 - 320)));
+    }
+    .boncategoruproduct .product-wrapper {
+        padding: calc(5px + (22 - 5) * ((100vw - 320px) / (767 - 320))) calc(5px + (16 - 5) * ((100vw - 320px) / (767 - 320)));
+    }
+    .boncategoruproduct .boncategoruproduct-item p.h2 {
+        margin: calc(15px + (44 - 15) * ((100vw - 320px) / (767 - 320))) 0;
+        font-size: calc(15px + (40 - 15) * ((100vw - 320px) / (767 - 320)));
+    }
+}

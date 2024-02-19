@@ -1,0 +1,13 @@
+ 
+
+{shop_url}
+
+Dobrý den,
+
+Přihlášení k odběru novinek
+
+Děkujeme, že jste se přihlásili k odběru našich novinek. Jako dík vám zasíláme tento slevový kód: {discount}
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop-project.org/)

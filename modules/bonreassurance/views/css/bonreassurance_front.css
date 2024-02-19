@@ -1,0 +1,78 @@
+#bonreassurance .link-bonreassurance {
+    display: flex;
+    align-items: center;
+}
+
+#bonreassurance .vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+#bonreassurance .bonreassurance-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+#product #bonreassurance .container {
+    padding: 0;
+}
+#bonreassurance .bonreassurance-wrapper .bonreassurance-item {
+    margin-bottom: 20px;
+}
+
+#bonreassurance .bonreassurance-wrapper .bonreassurance-item:not(:last-child) {
+    padding-right: 10px;
+}
+
+#bonreassurance .link-bonreassurance:focus {
+    outline: none !important;
+}
+
+#bonreassurance .horizontal .box-icon {
+    margin-right: 11px;
+}
+
+#bonreassurance .vertical li:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+#bonreassurance .vertical .box-icon {
+    margin-right: 30px;
+}
+
+#bonreassurance .box-content p {
+    color: #3a3a3a;
+    font-size: 16px;
+    margin-bottom: 0;
+    line-height: 1.75;
+}
+
+#bonreassurance .slick-slide {
+    padding-top: 30px;
+}
+#bonreassurance .slick-dots li button:before {
+    font-size: 13px;
+}
+#bonreassurance .slick-prev::before, #bonreassurance .slick-next::before {
+    color: #3a3a3a;
+    font-size: 37px;
+}
+
+@media screen and (min-width: 1881px) {
+    #bonreassurance {
+        margin: 25px 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1880px) {
+    #bonreassurance {
+        margin: calc(15px + (25 - 15) * ((100vw - 992px) / (1880 - 992))) 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #bonreassurance {
+        margin: 15px 0;
+    }
+}

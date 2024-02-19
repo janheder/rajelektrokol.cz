@@ -1,0 +1,66 @@
+.bootstrap .bobonmegamenu>tbody tr.ui-sortable-helper td {
+    color: #fff !important;
+    right: 0 !important;
+    background-color: #00aff0 !important;
+    -moz-transform: translate(5px, 10px);
+    -ms-transform: translate(5px, 10px);
+    -webkit-transform: translate(5px, 10px);
+    transform: translate(5px, 10px)
+}
+
+.ui-sortable-helper {
+    display: table;
+}
+
+input[name="submitUpdateBonmegamenu"]+.panel .form-group .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input[name="submitUpdateBonmegamenu"]+.panel .form-group .wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-bonmegamenu {
+    width: 150px;
+    height: auto;
+}
+
+
+#TAB2 .control-label {
+    width: 20%;
+}
+
+#form-bonmegamenu_sub_prod img {
+    width: 150px;
+    height: auto;
+}
+
+
+.bon_modules_icons .outicons,
+.icon-bonmenu.outicons {
+    font-family: "fl-outicons" !important;
+    font-size: 16px !important;
+}
+
+.bon_modules_icons .material_icons,
+.bon_modules_icons .material-icons,
+.icon-bonmenu.material-icons {
+    font-size: 18px !important;
+    font-family: 'Material Icons' !important;
+}
+
+.image-list input {
+    margin-top: 20px;
+}
+
+.image-list img {
+    margin-right: 12px;
+}
+ 
+.image-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+ 

@@ -1,0 +1,234 @@
+/**
+ * 2015-2021 Bonpresta
+ *
+ * Bonpresta Whatsapp Chat
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the General Public License (GPL 2.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/GPL-2.0
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade the module to newer
+ * versions in the future.
+ *
+ *  @author    Bonpresta
+ *  @copyright 2015-2021 Bonpresta
+ *  @license   http://opensource.org/licenses/GPL-2.0 General Public License (GPL 2.0)
+ */
+
+#bonwhatsappchat {
+    z-index: 1002;
+    position: relative;
+}
+
+#bonwhatsappchat .whatsappchat-link {
+    display: flex;
+    align-items: center;
+    padding: 10px 9px 10px 10px;
+    transition: all .3s;
+    text-decoration: none;
+    outline: none;
+}
+
+#bonwhatsappchat .whatsappchat-link:hover {
+    background-color: #F4F4F4;
+}
+
+#bonwhatsappchat .img-responsive {
+    max-width: 70px;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+}
+
+#bonwhatsappchat .whatsappchat-title,
+#bonwhatsappchat .whatsappchat-descr {
+    display: block;
+}
+#bonwhatsappchat #bonwhatsappchat-open {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 290px;
+    background-color: #2EB743;
+    border: none;
+    width: 30px;
+    height: 30px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .12);
+    cursor: pointer;
+    outline: none;
+    z-index: 1002;
+    transition: all .3s;
+    opacity: 0;
+    border-radius: 0 6px 6px 0;
+    background-size: 65%;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#bonwhatsappchat .bonwhatsappchat-open_img {
+    width: 100%;
+    height: 100%;
+    background: url('data:./img/icon.png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIkSURBVHgBrVeLkYJADF2uAjq4LYEOoAPtwOtAO9AO1Aq4q8C5CvAq0A6wA+0glwxZDWE/gr6ZDMImeUnYZCUzTwIAKrzMUAoUy0K4oVxQzihHlN8sy27mFSBZjrJBucI41Cg25jsz8QxrkZnL7swis6IqkH6udPeY/cY8C85SokEpqQIJu5KzlTik7JzxtzCiEs/NSKBNgdIKP6coucq0Tb2nBHnO2d7fe0jx612kym8j/K580bWivNa8CR7fuVyU2S6V4Rwe7VSZCSA74X8tF1xErTKw0N8kjZkIUfIuaxXNQinLSjikW8NP3OP5wGelWP9T+p8eH0szAThIjuYxdCoiLvjmgosXpe+buT9mOo58LYjYOmLjJ5HkG09wY3DhqyXiXD28g0+ZnXhUmdfgksg/nlDei6CqwRCYCujmKOEU0bHQPxpXAR1r4ly1a6n+TdyoUOQb11qq3+tQAKKXG7pZCmdVgnyuyIlsK6omUXsq4rAdPkgAhtMshK2yk8Oo1CXoD/EwOQ3+dSSAwUEDvrEM/XGWzNqTScNkLf+2Skee8wvtwL27g3kjoNuUMMiWF4MHxYukej+UWkHubGveAE5GdsDap9TIUkC3eejdUavUY4Jh2x30sQ4pOlCEvp4EDoD6OA/4qFjnqvwtQxHOYTxcgCRtQKeBWKVg+AecnFGJZ5xJ6dGJoQG9iTzIoPsf5T5Lgh9c0JWYHBYs8ji9pew1/gFE48eSVn9+EQAAAABJRU5ErkJggg==') no-repeat center;
+
+}
+
+#bonwhatsappchat #bonwhatsappchat-open.left {
+    opacity: 1;
+    left: 0;
+}
+#bonwhatsappchat #bonwhatsappchat-open.right {
+    right: 0;
+    opacity: 1;
+}
+
+#bonwhatsappchat #bonwhatsappchat-open:hover {
+    background-color: #2EB743;
+}
+
+/*animation*/
+/*#bonwhatsappchat #bonwhatsappchat-open:hover .bonwhatsappchat-open_img{*/
+/*    animation-duration: 0.3s;*/
+/*    animation-name: whatsapp;*/
+/*}*/
+
+@keyframes whatsapp {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(10deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+#bonwhatsappchat #bonwhatsappchat-open.left.active {
+    left: 320px;
+}
+#bonwhatsappchat #bonwhatsappchat-open.right.active {
+    right: 320px;
+}
+
+#bonwhatsappchat #bonwhatsappchat-open img{
+    width: 30px;
+    height: 30px;
+}
+
+#bonwhatsappchat .whatsappchat-wrapper {
+    top: 290px;
+    opacity: 0;
+    position: fixed;
+    background-color: white;
+    max-width: 320px;
+    max-height: 350px;
+    overflow: auto;
+    z-index: 1002;
+    transition: all .3s;
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.15);
+}
+
+#bonwhatsappchat .whatsappchat-wrapper.left {
+    left: -320px;
+    opacity: 1;
+}
+#bonwhatsappchat .whatsappchat-wrapper.right {
+    right: -320px;
+    opacity: 1;
+}
+
+#bonwhatsappchat .whatsappchat-wrapper.left.active {
+    left: 0;
+}
+
+#bonwhatsappchat .whatsappchat-wrapper.right.active {
+    right: 0;
+}
+
+#bonwhatsappchat .whatsappchat-description {
+    padding: 11px 40px 10px 15px;
+    background: #F4F4F4;
+}
+#bonwhatsappchat .whatsappchat-description p{
+    color: #505050;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    margin: 0;
+}
+
+#bonwhatsappchat .whatsappchat-body {
+    padding: 10px 15px 10px 15px;
+}
+
+#bonwhatsappchat .whatsappchat-body .p-0{
+    border-bottom: 1px solid #EAEAEA;
+}
+
+#bonwhatsappchat .whatsappchat-body .p-0:last-child{
+    border-bottom: none;
+}
+
+#bonwhatsappchat .whatsappchat-inner {
+    max-width: 100%;
+    width: 100%;
+    padding-left: 10px;
+}
+
+#bonwhatsappchat .whatsappchat-title {
+    font-size: 13px;
+    color: #6F6F6F;
+    font-weight: 300;
+    line-height: 19px;
+    margin-bottom: 0;
+}
+
+#bonwhatsappchat .whatsappchat-subtitle,
+.whatsappchat-subtitle p{
+    font-size: 15px;
+    line-height: 22px;
+    color: #3A3A3A;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+#bonwhatsappchat .whatsappchat-descr,
+#bonwhatsappchat .whatsappchat-descr p{
+    font-size: 13px;
+    line-height: 19px;
+    color: #484848;
+    font-weight: 300;
+    margin: 0;
+}
+@media screen and (max-width: 991px) {
+    #bonwhatsappchat .whatsappchat-wrapper,
+    #bonwhatsappchat #bonwhatsappchat-open {
+        top: 300px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #bonwhatsappchat .whatsappchat-wrapper,
+    #bonwhatsappchat #bonwhatsappchat-open {
+        top: 320px;
+    }
+}
+
+@media screen and (max-width: 368px){
+    #bonwhatsappchat .whatsappchat-wrapper,
+    #bonwhatsappchat #bonwhatsappchat-open {
+        top: 340px;
+    }
+}

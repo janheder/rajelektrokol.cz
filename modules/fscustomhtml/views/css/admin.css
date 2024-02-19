@@ -1,0 +1,174 @@
+/**
+ * Copyright 2022 ModuleFactory
+ *
+ * @author    ModuleFactory
+ * @copyright ModuleFactory all rights reserved.
+ * @license   https://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * https://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+.fsch-brand-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fsch-brand-col {
+    width: 25%;
+    height: 20px;
+}
+
+.fsch-brand-col.c-1 {
+    background-color: #c5026a;
+}
+
+.fsch-brand-col.c-2 {
+    background-color: #fe8301;
+}
+
+.fsch-brand-col.c-3 {
+    background-color: #0083b1;
+}
+
+.fsch-brand-col.c-4 {
+    background-color: #8bb40d;
+}
+
+.fsch-side-menu-container {
+    background: #ffffff;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.fsch-need-help-container {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.fsch-need-help-question-mark {
+    font-size: 40px;
+    color: #fe8301;
+}
+
+.fsch-need-help-link {
+    font-size: 16px;
+    margin-left: 5px;
+    font-weight: bold;
+    color: #000000 !important;
+    text-decoration: none;
+}
+
+.fsch-more-modules-container {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.fsch-more-modules-link {
+    font-size: 16px;
+    margin-left: 5px;
+    font-weight: bold;
+    color: #000000 !important;
+    text-decoration: none;
+}
+
+.fsch-clear {
+    clear: both;
+}
+
+.fsch-hide {
+    display: none;
+}
+
+.fsch-mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.fsch-line-through {
+    text-decoration: line-through;
+}
+
+.fsch-bold {
+    font-weight: bold;
+}
+
+.fsch-u {
+    text-decoration: underline;
+}
+
+#fsch-help h2 {
+    margin-top: 22px;
+}
+
+.fsch-help-title {
+    cursor: pointer;
+    text-decoration: underline;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+}
+
+.fsch-help-title:hover {
+    color: #00aff0;
+}
+
+.fsch-help-title.spacer {
+    margin-top: 14px;
+}
+
+.fsch-help-body {
+    background-color: #eff1f2;
+    padding: 9px 10px 6px 10px;
+}
+
+.fsch-help-table th, .fsch-help-table td {
+    padding-right: 10px;
+    padding-bottom: 2px;
+}
+
+.fsch_block .tooltip > .tooltip-inner {
+    max-width: 600px;
+    white-space: nowrap;
+    /* If max-width does not work, try using width instead */
+    width: 100%;
+    overflow: hidden;
+}
+
+.fsch-tooltip {
+    background-color: #00aff0;
+    border-color: #00aff0;
+    color: #ffffff;
+    line-height: 23px;
+    width: 23px;
+    display: inline-block;
+    border-radius: 23px;
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    .fsch-tooltip {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .fsch-tooltip-mobile {
+        display: none;
+    }
+}

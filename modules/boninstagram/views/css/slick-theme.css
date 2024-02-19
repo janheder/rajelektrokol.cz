@@ -1,0 +1,182 @@
+/*@charset "UTF-8";*/
+/* Slider */
+#boninstagram .slick-loading .slick-list
+{
+    background: #fff url('./../img/ajax-loader.gif') center center no-repeat;
+}
+
+/* Icons */
+@font-face
+{
+    font-family: 'slick';
+    font-weight: normal;
+    font-style: normal;
+    src: url('./../fonts/slick.eot');
+    src: url('./../fonts/slick.eot?#iefix') format('embedded-opentype'), url('./../fonts/slick.woff') format('woff'), url('./../fonts/slick.ttf') format('truetype'), url('./../fonts/slick.svg#slick') format('svg');
+}
+/* Arrows */
+#boninstagram .slick-prev,
+#boninstagram .slick-next
+{
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    outline: none;
+    height: 60px;
+    background: transparent;
+    border: none;
+    transition: all .3s ease;
+    border-radius: 5px;
+}
+#boninstagram .slick-prev:hover,
+#boninstagram .slick-prev:focus,
+#boninstagram .slick-next:hover,
+#boninstagram .slick-next:focus
+{
+    outline: none;
+}
+#boninstagram .slick-prev.slick-disabled:before,
+#boninstagram .slick-next.slick-disabled:before
+{
+    opacity: .25;
+}
+
+#boninstagram .slick-prev:before,
+#boninstagram .slick-next:before
+{
+    font-family: 'slick';
+    font-size: 30px;
+    line-height: 1;
+
+    opacity: .75;
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#boninstagram .slick-prev
+{
+    left: 0;
+}
+[dir='rtl'] #boninstagram .slick-prev
+{
+    right: 0;
+    left: auto;
+}
+#boninstagram .slick-prev:before
+{
+    content: '←';
+}
+[dir='rtl'] #boninstagram .slick-prev:before
+{
+    content: '→';
+}
+
+#boninstagram .slick-next
+{
+    right: 0;
+}
+[dir='rtl'] #boninstagram .slick-next
+{
+    right: auto;
+    left: 0;
+}
+#boninstagram .slick-next:before
+{
+    content: '→';
+}
+[dir='rtl'] #boninstagram .slick-next:before
+{
+    content: '←';
+}
+
+/* Dots */
+#boninstagram .slick-dotted.slick-slider
+{
+    margin-bottom: 30px;
+}
+
+#boninstagram .slick-dots
+{
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+#boninstagram .slick-dots li
+{
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+#boninstagram .slick-dots li button
+{
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+#boninstagram .slick-dots li button:hover,
+#boninstagram .slick-dots li button:focus
+{
+    outline: none;
+}
+#boninstagram .slick-dots li button:hover:before,
+#boninstagram .slick-dots li button:focus:before
+{
+    opacity: 1;
+}
+#boninstagram .slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    transition: all .3s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: .25;
+    color: black;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#boninstagram .slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color: black;
+}

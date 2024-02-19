@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>blockreassurance</name>
+    <displayName><![CDATA[Uji&scaron;těn&iacute; z&aacute;kazn&iacute;ka]]></displayName>
+    <version><![CDATA[5.1.2]]></version>
+    <description><![CDATA[Spojte se se sv&yacute;mi z&aacute;kazn&iacute;ky a ujistěte je o bezpečn&eacute; platbě, dopravě zdarma nebo možnostech vr&aacute;cen&iacute; zbož&iacute;.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Opravdu chcete odinstalovat tento modul?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>

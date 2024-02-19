@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ps_crossselling</name>
+    <displayName><![CDATA[Souvisej&iacute;c&iacute; zbož&iacute; [Cross Selling]]]></displayName>
+    <version><![CDATA[2.0.2]]></version>
+    <description><![CDATA[Nab&iacute;dněte z&aacute;kazn&iacute;kům dal&scaron;&iacute; zbož&iacute;, kter&eacute; souvis&iacute; s aktu&aacute;ln&iacute;m produktem.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[pricing_promotion]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>

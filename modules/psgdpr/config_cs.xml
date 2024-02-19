@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>psgdpr</name>
+    <displayName><![CDATA[GDPR]]></displayName>
+    <version><![CDATA[1.4.3]]></version>
+    <description><![CDATA[Mějte svůj obchod v souladu s nař&iacute;zen&iacute;m General Data Protection Regulation (GDPR).]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[administration]]></tab>
+	<confirmUninstall><![CDATA[Opravdu chcete odinstalovat tento modul?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>

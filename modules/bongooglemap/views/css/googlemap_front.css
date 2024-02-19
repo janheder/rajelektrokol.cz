@@ -1,0 +1,28 @@
+#bongooglemap {
+  padding: 0 10px;
+}
+#bongooglemap #googlemap {
+  width: 100%;
+  height: 560px;
+  margin: 0;
+  max-width: 100%;
+}
+
+.bongooglemap-logo {
+  float: left;
+  margin-right: 20px;
+  width: 170px;
+}
+.googlemap-popup .description {
+  float: right;
+}
+
+body .footer-before {
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  #bongooglemap #googlemap {
+    height: 280px;
+  }
+}

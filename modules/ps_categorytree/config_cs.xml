@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ps_categorytree</name>
+    <displayName><![CDATA[Odkazy na strom kategori&iacute;]]></displayName>
+    <version><![CDATA[2.0.2]]></version>
+    <description><![CDATA[Pomozte z&aacute;kazn&iacute;kům zorientovat se na va&scaron;em eshopu t&iacute;m, že jim zobraz&iacute;te strom kategori&iacute;.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>

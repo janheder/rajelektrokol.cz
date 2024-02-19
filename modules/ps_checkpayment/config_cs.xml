@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ps_checkpayment</name>
+    <displayName><![CDATA[&Scaron;ek]]></displayName>
+    <version><![CDATA[2.0.6]]></version>
+    <description><![CDATA[Zobrazte bloky s kontaktn&iacute;mi &uacute;daji, abyste z&aacute;kazn&iacute;kům usnadnili platbu &scaron;ekem ve va&scaron;em obchodě.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall><![CDATA[Určitě chcete odstranit svoje nastavení tohoto modulu?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>

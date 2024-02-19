@@ -1,0 +1,273 @@
+.boninstagram-date {
+  text-align: center;
+  bottom: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all .3s ease;
+  opacity: 0;
+  font-size: 12px;
+  position: absolute;
+  color: #fff;
+  width: 100%;
+  word-wrap: anywhere;
+}
+#boninstagram {
+  overflow: hidden;
+}
+#boninstagram .block_content .slick-list {
+  overflow: visible;
+}
+#boninstagram .slick-slider .slick-track, #boninstagram .slick-slider .slick-list {
+  display: flex;
+  align-items: end;
+}
+#boninstagram.readyOnChange .slick-initialized li:not(.slick-current) {
+  transition: all .3s ease .3s!important;
+}
+#boninstagram.readyOnChange .slick-initialized li.slick-current {
+  transition: all .3s ease 0s!important;
+}
+#boninstagram .slick-initialized .slick-slide {
+  overflow: hidden;
+}
+.boninstagram-author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 3px;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  transition: all .3s ease;
+  opacity: 0;
+}
+.boninstagram-author span {
+  font-size: 12px;
+  color: #fff;
+  word-wrap: anywhere;
+}
+
+.instagram-menu-open {
+  background: transparent;
+  width: 45px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 45px;
+  transition: all 0.3s linear;
+  z-index: 998;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  outline: none!important;
+}
+
+#boninstagram .slick-slide img {
+  width: 100%;
+}
+.instagram-menu-open  > div{
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  border: 2px #ffffff solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.instagram-menu-open * {
+  display: inline-block;
+}
+
+.instagram-menu-open  > div > div:nth-child(1) {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px #ffffff solid;
+}
+
+.instagram-menu-open > div > div:nth-child(2) {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  right: 4px;
+  top: 3px;
+}
+
+#boninstagram .boninstagram-container .instagram-home-title span {
+  display: block;
+  font-size: 14px;
+  text-transform: none;
+  margin-bottom: 1rem;
+  color: #777;
+  line-height: 100%;
+}
+#boninstagram .boninstagram-title {
+  position: relative;
+  display: block;
+  width: 100%;
+  font-weight: 500;
+  line-height: 110%;
+  transition: all .3s ease;
+  text-align: center;
+}
+#boninstagram .boninstagram-subtitle {
+  position: relative;
+  line-height: 110%;
+  color: #7a7a7a;
+  text-align: center;
+  transition: all .3s ease;
+  text-transform: none;
+}
+#boninstagram .boninstagram-container .instagram-home-title h2{
+  font-size: calc(20px + (35 - 20) * ((100vw - 320px) / (1880 - 320)));
+  margin-bottom: 32px;
+}
+
+#boninstagram .boninstagram-container .instagram-home-title {
+  position: relative;
+  text-align: center;
+}
+#boninstagram .boninstagram-container .slick-prev:before,
+#boninstagram .boninstagram-container .slick-next:before {
+  color: #222;
+}
+
+#boninstagram .boninstagram-container.hidden {
+  display: none;
+}
+#boninstagram .boninstagram-container .slick-prev {
+  left: 15px;
+  z-index: 1;
+}
+#boninstagram .boninstagram-container .slick-list-wrap {
+  overflow: hidden;
+}
+#boninstagram .boninstagram-container .slick-prev::before, #boninstagram .boninstagram-container .slick-next::before {
+  font-family: "Mercury";
+  color: #777;
+  transition: all 0.3s ease;
+  opacity: 0.75;
+}
+#boninstagram .boninstagram-container .slick-prev::before {
+  content: '\e802';
+}
+#boninstagram .boninstagram-container .slick-next::before {
+  content: '\e804';
+}
+#boninstagram:hover .boninstagram-container .slick-next, #boninstagram:hover .boninstagram-container .slick-prev {
+  opacity: 1;
+}
+#boninstagram .boninstagram-container .slick-next, #boninstagram .boninstagram-container .slick-prev {
+  transition: all 0.3s ease;
+  z-index: 10;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 0;
+}
+#boninstagram .boninstagram-container ul.slick-dots {
+  justify-content: center;
+}
+#boninstagram .boninstagram-container ul:not(.slick-carousel-instagram) {
+  margin-bottom:0;
+  display: flex;
+  flex-wrap: wrap;
+}
+#boninstagram .boninstagram-container ul li a {
+  display: flex;
+  position: relative;
+  height: 100%;
+  outline: none!important;
+  align-items: end;
+}
+
+#boninstagram .boninstagram-container ul li a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#boninstagram .instagram_cover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  opacity: 0;
+  text-align: center;
+  transition: all .3s ease-out;
+  background-color: rgba(0,0,0,0.7);
+}
+#boninstagram a:hover .instagram_cover,
+#boninstagram a:hover .boninstagram-author,
+#boninstagram a:hover .boninstagram-date,
+#boninstagram .boninstagram-container ul li a:hover .instagram-menu-open {
+  opacity: 1;
+  transition: all .5s ease-out;
+}
+#boninstagram .boninstagram-container ul li a:hover img{
+  -webkit-filter: grayscale(50%);
+}
+
+#boninstagram a:hover .instagram_cover:before{
+  transform: scale(1);
+}
+
+#boninstagram .boninstagram-container .slick-next {
+  right: 15px;
+}
+#boninstagram .boninstagram-video {
+  min-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+}
+#boninstagram ul:not(.slick-carousel-instagram) .boninstagram-video {
+  max-height: 100%;
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+}
+@media screen and (min-width: 1881px) {
+  #boninstagram .boninstagram-container .slick-next, #boninstagram .boninstagram-container .slick-prev {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 1880px) {
+  #boninstagram .boninstagram-container .slick-next, #boninstagram .boninstagram-container .slick-prev {
+    width: calc(20px + (50 - 20) * ((100vw - 320px) / (1880 - 320)));
+    height: calc(20px + (50 - 20) * ((100vw - 320px) / (1880 - 320)));
+  }
+  #boninstagram .boninstagram-container .slick-prev::before, #boninstagram .boninstagram-container .slick-next::before {
+    font-size: calc(15px + (30 - 15) * ((100vw - 320px) / (1880 - 320)));
+  }
+}
+@media screen and (min-width: 1201px) {
+  #boninstagram .products-section-title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 991px){
+  #boninstagram .boninstagram-container ul li {
+    flex: 33.3333333%;
+  }
+}
+
+@media screen and (max-width: 576px){
+  #boninstagram .boninstagram-container ul {
+    flex-wrap: wrap;
+  }
+  #boninstagram .boninstagram-container ul li {
+    flex: 50%;
+  }
+}

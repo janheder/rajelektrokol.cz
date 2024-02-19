@@ -1,0 +1,184 @@
+/**
+ * 2015-2020 Bonpresta
+ *
+ * Bonpresta Responsive banners
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the General Public License (GPL 2.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/GPL-2.0
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade the module to newer
+ * versions in the future.
+ *
+ *  @author    Bonpresta
+ *  @copyright 2015-2020 Bonpresta
+ *  @license   http://opensource.org/licenses/GPL-2.0 General Public License (GPL 2.0)
+ */
+#bonbanners {
+    overflow: hidden;
+}
+#bonbanners .banner-inner_footer-soc a:hover svg path {
+    fill: #fc5b16;
+}
+#bonbanners svg path {
+    transition: all .3s ease;
+}
+#bonbanners .bonbanners-item {
+    position: relative;
+    overflow: hidden;
+}
+#bonbanners .img-responsive {
+    width: 101%;
+    height: auto;
+    transition: filter 0.3s ease, transform 2s ease;
+    max-width: 101%;
+}
+#bonbanners video {
+    width: auto;
+    max-width: 100%;
+    transition: all 0.3s ease;
+    height: 101%;
+    object-fit: cover;
+}
+#bonbanners .h1,
+#bonbanners .h2 {
+    font-family: Kanit;
+}
+#bonbanners .h1 {
+    line-height: 100%;
+    margin: 0;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FD370C;
+}
+#bonbanners .h2 {
+    color: #666666;
+    line-height: 125%;
+    font-weight: 500;
+}
+#bonbanners p:not(.h1):not(.h2) {
+    color: #4D4D4D;
+    line-height: 175%;
+    font-weight: 400;
+}
+#bonbanners .banner-inner_footer {
+    display: flex;
+    align-items: center;
+}
+#bonbanners .banner-image {
+    max-width: 100%;
+}
+#bonbanners .bonbanners-item {
+    display: flex;
+    justify-content: end;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bonbanners .bonbanners-main-link {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+@media screen and (min-width: 1881px){
+    #bonbanners .h1 {
+        font-size: 120px;
+    }
+    #bonbanners .h2 {
+        font-size: 48px;
+        margin-bottom: 12px;
+    }
+    #bonbanners p:not(.h1):not(.h2) {
+        font-size: 16px;
+        margin-bottom: 44px;
+        max-width: 530px;
+    }
+    #bonbanners .bonbanners-item {
+        padding: 286px 80px 83px 80px;
+    }
+    #bonbanners .banner-inner {
+        max-width: 568px;
+        transform: translateX(-250px);
+    }
+    #bonbanners .banner-inner_footer {
+        margin-top: 53px;
+    }
+    #bonbanners .banner-inner_footer .banner-inner_footer-soc a {
+        margin-left: 42px;
+    }
+    #bonbanners .bonbanners-list.container {
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width: 1880px) {
+    #bonbanners p:not(.h1):not(.h2) {
+        font-size: calc(11px + (16 - 11) * ((100vw - 577px) / (1880 - 577)));
+        margin-bottom: calc(0px + (44 - 0) * ((100vw - 577px) / (1880 - 577)));
+        max-width: calc(300px + (530 - 300) * ((100vw - 577px) / (1880 - 577)));
+    }
+
+    #bonbanners .banner-inner {
+        max-width: calc(450px + (568 - 450) * ((100vw - 320px) / (1880 - 320)));
+    }
+    #bonbanners .banner-inner_footer .banner-inner_footer-soc a {
+        margin-left: calc(25px + (42 - 25) * ((100vw - 320px) / (1880 - 320)));
+    }
+    #bonbanners .bonbanners-list.container {
+        padding: 0 calc(23px + (30 - 23) * ((100vw - 320px) / (1880 - 320)));
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 1880px) {
+    #bonbanners .bonbanners-item {
+        padding: calc(100px + (286 - 100) * ((100vw - 577px) / (1880 - 577))) calc(60px + (80 - 60) * ((100vw - 577px) / (1880 - 577))) calc(15px + (83 - 15) * ((100vw - 577px) / (1880 - 577))) calc(60px + (80 - 60) * ((100vw - 577px) / (1880 - 577)));
+    }
+    #bonbanners .banner-inner {
+        transform: translateX(calc(55px + (-250 - 55) * ((100vw - 577px) / (1880 - 577))));
+    }
+    #bonbanners .banner-inner_footer {
+        margin-top: calc(5px + (53 - 5) * ((100vw - 577px) / (1880 - 577)));
+    }
+    #bonbanners .h1 {
+        font-size: calc(20px + (120 - 20) * ((100vw - 320px) / (1880 - 320)));
+    }
+    #bonbanners .h2 {
+        font-size: calc(15px + (48 - 15) * ((100vw - 320px) / (1880 - 320)));
+        margin-bottom: calc(0px + (12 - 0) * ((100vw - 577px) / (1880 - 577)));
+    }
+}
+@media screen and (min-width: 577px) {
+    #bonbanners .banner-inner {
+        position: relative;
+        z-index: 4;
+    }
+}
+@media screen and (max-width: 576px) {
+
+    #bonbanners .h1 {
+        font-size: calc(20px + (60 - 20) * ((100vw - 320px) / (576 - 320)));
+    }
+    #bonbanners .h2 {
+        font-size: calc(15px + (30 - 15) * ((100vw - 320px) / (576 - 320)));
+    }
+    #bonbanners .bonbanners-item {
+        padding: calc(70px + (120 - 70) * ((100vw - 320px) / (576 - 320))) calc(60px + (80 - 60) * ((100vw - 320px) / (576 - 320))) calc(20px + (40 - 20) * ((100vw - 320px) / (576 - 320))) calc(60px + (80 - 60) * ((100vw - 320px) / (576 - 320)));
+    }
+    #bonbanners .banner-inner {
+        transform: translateX(calc(50px + (70 - 50) * ((100vw - 320px) / (576 - 320))));
+    }
+    #bonbanners p:not(.h1):not(.h2),
+    #bonbanners .banner-inner_footer {
+        display: none;
+    }
+    #bonbanners .banner-inner_footer {
+        margin-top: calc(5px + (15 - 5) * ((100vw - 320px) / (576 - 320)));
+    }
+}

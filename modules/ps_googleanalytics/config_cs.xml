@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ps_googleanalytics</name>
+    <displayName><![CDATA[Google Analytics]]></displayName>
+    <version><![CDATA[4.2.2]]></version>
+    <description><![CDATA[Prostřednictv&iacute;m Google Analytics z&iacute;sk&aacute;te jasn&yacute; pohled na důležit&eacute; &uacute;daje o Va&scaron;ich z&aacute;kazn&iacute;c&iacute;ch]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[analytics_stats]]></tab>
+	<confirmUninstall><![CDATA[Opravdu si přejete odinstalovat Google Analytics? Přijdete o všechna data, která jsou s tímto modulem spojena.]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>

@@ -1,0 +1,28 @@
+.products .product-thumbnail,
+.product-image-container .product_img_link {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	outline: none !important;
+}
+
+.products .product-thumbnail img,
+.product-image-container .product_img_link img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	width: 100%;
+}
+
+.products .product-thumbnail img.img-responsive,
+.product-image-container .product_img_link img.img-responsive {
+	display: block;
+	max-width: 100%;
+}
+
+.products .product-thumbnail img:first-child,
+.product-image-container .product_img_link img:first-child {
+	position: relative;
+	opacity: 1;
+}
